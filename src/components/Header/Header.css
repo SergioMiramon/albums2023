@@ -1,0 +1,36 @@
+nav {
+    position: fixed;
+    height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vh;
+    flex-wrap: wrap;
+    z-index: 100;
+}
+
+
+.logo{
+    width: 2.5vh;
+    max-width: 750px;
+    margin-top: 5px;
+    height: 2.5vh;
+    background: transparent;
+    margin-left: .75vh;
+}
+
+@media (max-width: 770px) {
+    .logo{
+        width: 2vh;
+        margin-top: 5px;
+        height: 2vh;
+        background: transparent;
+        margin-left: .75vh;
+    }
+}
+
+/* @media (max-width: 1050px) {
+    nav>ul {
+        position: relative;
+    }
+} */
