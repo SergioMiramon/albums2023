@@ -20,6 +20,7 @@ export const AlbumGrid = ({album}) => {
         </div>
         <figure>
             <img src={album.image} alt={album.title} onClick={() => getImg(album.image)}/>
+            <span className="material-symbols-outlined" onClick={() => getImg(album.image)}>share</span>
                 <div className="info">
                     <h4>{album.type}</h4>
                     <div className="title">

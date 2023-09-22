@@ -57,7 +57,6 @@
   justify-content: center;
 }
 
-
 figure{
     height: inherit;
     position: relative;
@@ -94,6 +93,26 @@ figure img {
     cursor: pointer;
     grid-area: img;
 }
+
+.material-symbols-outlined {
+    display: none;
+    font-size: 2vh;
+}
+
+figure:hover .material-symbols-outlined {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: .5vw;
+    padding-right: .5vw;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
 .info {
     position: absolute;
     bottom: 0;
