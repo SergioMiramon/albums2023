@@ -1,19 +1,5 @@
 export const albums = [
-  {
-    "title": "Pensando mucho y mal",
-    "artist": "lusillón",
-    "id": 39,
-    "releasedate": "13/01/2023",
-    "month": "january",
-    "type": "Album",
-    "songs": 10,
-    "duration": "26min 4s",
-    "genre": "indie",
-    "image": "/icons/images/calendar/pensando-mucho-y-mal.jpg",
-    "favm": "",
-    "favs": "",
-    "hr": false
-  },
+  
   {
     "title": 12,
     "artist": "Ryuchi Sakamoto",
@@ -25,6 +11,21 @@ export const albums = [
     "duration": "1h 1min",
     "genre": "electronic",
     "image": "/icons/images/calendar/12.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Pensando mucho y mal",
+    "artist": "lusillón",
+    "id": 39,
+    "releasedate": "13/01/2023",
+    "month": "january",
+    "type": "Album",
+    "songs": 10,
+    "duration": "26min 4s",
+    "genre": "indie",
+    "image": "/icons/images/calendar/pensando-mucho-y-mal.jpg",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1372,9 +1373,24 @@ export const albums = [
     "month": "september",
     "type": "Album",
     "songs": 15,
-    "duration": "",
+    "duration": "39min 24s",
     "genre": "pop",
     "image": "/icons/images/calendar/alpha.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Sunday Truce",
+    "artist": "Franco Carter & Esse Delgado",
+    "id": 103,
+    "releasedate": "22/09/2023",
+    "month": "september",
+    "type": "Album",
+    "songs": 10,
+    "duration": "35min 8s",
+    "genre": "rap",
+    "image": "/icons/images/calendar/sunday-truce.jpg",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1396,14 +1412,23 @@ export const albums = [
   }
 ]
 
-export const orderedAlbums = albums.sort((a, b) => new Date(a.releasedate).getTime()  >  new Date(a.releasedate).getTime())
-console.log(orderedAlbums)
+// export const orderedAlbums = albums.sort((a, b) => a.releasedate  -  new Date(b.releasedate))
+// console.log(orderedAlbums)
+// const date = albums.sort (data => (data.releasedate))
+// export const orderedAlbums = [...new Set(date)]
+// console.log(orderedAlbums)
+
+  // const date = albums.map (data => new Date(data.releasedate))
+  // export const orderedAlbums = [...new Set(date)]
+  // console.log(orderedAlbums)
 
   const months = albums.map (data => (data.month))
   export const uniqueMonths = [...new Set(months)]
 
 
   export const januaryAlbums = albums.filter(album => album.month === "january")
+  // const januarySort = januaryAlbums.sort(((a, b) => b.releasedate.toString  - a.releasedate.toString))
+  // console.log(januarySort)
   export const februaryAlbums = albums.filter(album => album.month === "february")
   export const marchAlbums = albums.filter(album => album.month === "march")
   export const aprilAlbums = albums.filter(album => album.month === "april")
@@ -1414,6 +1439,5 @@ console.log(orderedAlbums)
   export const septemberAlbums = albums.filter(album => album.month === "september")
 
   export const favAlbums = albums.filter(album =>album.favs === "⭐")
-  console.log(favAlbums)
 
   export const albumsCount = albums.length
