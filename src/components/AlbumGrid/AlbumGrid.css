@@ -56,7 +56,6 @@
   align-items: center;
   justify-content: center;
 }
-
 figure{
     height: inherit;
     position: relative;
@@ -93,7 +92,9 @@ figure img {
     cursor: pointer;
     grid-area: img;
 }
-
+figure span {
+    cursor: pointer;
+}
 .material-symbols-outlined {
     display: none;
     font-size: 2vh;
