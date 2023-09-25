@@ -1366,6 +1366,51 @@ export const albums = [
     "hr": true
   },
   {
+    "title": "Summer Series '23",
+    "artist": "Juancho Marqués",
+    "id": 104,
+    "releasedate": "17/09/2023",
+    "month": "september",
+    "type": "EP",
+    "songs": 6,
+    "duration": "18min 44s",
+    "genre": "pop",
+    "image": "/icons/images/calendar/summer-series23.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": true
+  },
+  {
+    "title": "Safary",
+    "artist": "Chicoes3, Dj Taktel & Cómodo",
+    "id": 105,
+    "releasedate": "19/09/2023",
+    "month": "september",
+    "type": "Album",
+    "songs": 14,
+    "duration": "39min 32s",
+    "genre": "rap",
+    "image": "/icons/images/calendar/safary.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Speak To Me / Breathe",
+    "artist": "Roger Waters",
+    "id": 106,
+    "releasedate": "21/09/2023",
+    "month": "september",
+    "type": "EP",
+    "songs": 4,
+    "duration": "20min 8s",
+    "genre": "rock",
+    "image": "/icons/images/calendar/speak-to-me-breathe.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
     "title": "Alpha",
     "artist": "Aitana",
     "id": 81,
@@ -1378,7 +1423,7 @@ export const albums = [
     "image": "/icons/images/calendar/alpha.jpg",
     "favm": "",
     "favs": "",
-    "hr": false
+    "hr": true
   },
   {
     "title": "Sunday Truce",
