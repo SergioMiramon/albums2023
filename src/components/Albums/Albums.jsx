@@ -6,6 +6,11 @@ import { useState } from "react"
 
 export const Albums = () => {
     const [showFavs, setShowFavs] = useState(false);
+    // const [showFilter, setShowFilter] = useState(false);
+
+    // const toggleAlbums = () => {
+    //     setShowFilter(!showFilter);
+    // }
     return (
         <section>
             <ul>
