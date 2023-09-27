@@ -1,4 +1,4 @@
-nav {
+header {
     position: fixed;
     height: 6vh;
     display: flex;
@@ -28,9 +28,3 @@ nav {
         margin-left: .75vh;
     }
 }
-
-/* @media (max-width: 1050px) {
-    nav>ul {
-        position: relative;
-    }
-} */

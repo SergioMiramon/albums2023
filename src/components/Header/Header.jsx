@@ -1,10 +1,10 @@
 import "./Header.css";
-export const Header = () => {
+export const Header = ({headerImg, headerAlt}) => {
     return (
-        <nav>
+        <header>
             <a href="#" id="logo">
-                <img className="logo" src="/icons/images/all/logo.png" alt="logo"/>
+                <img className="logo" src={headerImg} alt={headerAlt}/>
             </a>
-        </nav>
+        </header>
     )
 };

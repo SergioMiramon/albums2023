@@ -1,10 +1,10 @@
-import "./Albums.css"
+import "./Main.css"
 import { Months } from "../Months/Months"
 import { Favs } from "../Favs/Favs"
 import { useState } from "react"
 
 
-export const Albums = () => {
+export const Main = () => {
     const [showFavs, setShowFavs] = useState(false);
     // const [showFilter, setShowFilter] = useState(false);
 
