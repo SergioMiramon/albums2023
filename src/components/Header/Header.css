@@ -1,5 +1,6 @@
 header {
     position: fixed;
+    width: 100vw;
     height: 6vh;
     display: flex;
     justify-content: space-between;
@@ -9,6 +10,15 @@ header {
     z-index: 100;
 }
 
+nav ul{
+    display: flex;
+    flex-direction: row;
+    gap: 2vh;
+}
+
+nav ul li {
+    color: var(--white-color);
+}
 
 .logo{
     width: 2.5vh;

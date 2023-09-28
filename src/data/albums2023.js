@@ -1471,6 +1471,18 @@ export const albums = [
   export const uniqueMonths = [...new Set(months)]
 
 
+  // export const byMonths = Object.groupBy(albums, (month) => {
+  //   return albums.month
+  // })
+
+  // console.log(byMonths)
+
+
+
+
+
+
+
   export const januaryAlbums = albums.filter(album => album.month === "january")
   // const januarySort = januaryAlbums.sort(((a, b) => b.releasedate.toString  - a.releasedate.toString))
   // console.log(januarySort)
@@ -1484,5 +1496,10 @@ export const albums = [
   export const septemberAlbums = albums.filter(album => album.month === "september")
 
   export const favAlbums = albums.filter(album =>album.favs === "⭐")
+
+  export const getAlbum = (title) => {
+  const foundAlbum = albums.find((album) => album.title === title);
+  return foundAlbum;
+}
 
   export const albumsCount = albums.length

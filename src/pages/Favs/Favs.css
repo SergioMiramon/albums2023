@@ -1,0 +1,32 @@
+section{
+    position: relative;
+    width: 100vw;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section>div {
+    position: relative;
+    width: 60vw;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.favs {
+    gap: 5vw;
+    margin-bottom: 4vw;
+}
+
+.favs>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}
+.favs>h1{
+    font-size: 2.2vh;
+    margin-bottom: -4vw;
+    color: #ffffff;
+}

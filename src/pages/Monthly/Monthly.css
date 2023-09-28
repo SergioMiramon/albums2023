@@ -1,0 +1,35 @@
+section{
+    position: relative;
+    width: 100vw;
+    padding-top: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section>div {
+    position: relative;
+    width: 60vw;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    color: var(--secundary-bg-color);
+    text-transform: capitalize;
+}
+h2 {
+    color: var(--main-bg-color);
+}
+.all {
+    gap: 5vw;
+    margin-bottom: 4vw;
+}
+
+.all>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+}

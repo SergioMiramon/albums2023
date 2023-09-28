@@ -1,13 +1,10 @@
-import "./Months.css";
+import "./Monthly.css";
 import { albums, aprilAlbums, augustAlbums, februaryAlbums, januaryAlbums, julyAlbums, juneAlbums, marchAlbums, mayAlbums, septemberAlbums } from "../../data/albums2023";
-import { AlbumGrid } from "../AlbumGrid/AlbumGrid";
+import { AlbumGrid } from "../../components/AlbumGrid/AlbumGrid";
 
-export const Months = () => {
+export const Monthly = () => {
     return (
-        <div className="months">
-            <ul>
-                <li></li>
-            </ul>
+        <section>
             <div className="all">
             {albums.map((album) => (
                 <AlbumGrid album={album} key={album.id}/>
@@ -67,6 +64,6 @@ export const Months = () => {
                 <AlbumGrid album={album} key={album.id}/>
             ))}
             </div> */}
-        </div>
+        </section>
     )
 }
