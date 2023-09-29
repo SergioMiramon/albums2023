@@ -16,7 +16,7 @@ export const AlbumDetail = () => {
                 <>
         <main>
             <section className="album-detail">
-            <img src={album.image} alt={album.title} onClick={() => getImg(album.image)}/>
+            <img src={album.image} alt={album.title}/>
                 <div className="info-detail">
                     <h4>{album.type}</h4>
                     <div className="title-detail">

@@ -6,12 +6,12 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    gap: 1.5vh;
 }
-.album-detail img {
+.album-detail>img {
     position: relative;
     height: 30vw;
     width: 30vw;
-    cursor: pointer;
 }
 
 .album-detail .info-detail {
@@ -64,6 +64,10 @@
 
 
 @media (max-width: 1660px) {
+    .album-detail>img {
+        height: 30vw;
+        width: 30vw;
+    }
     .info-detail h4 {
         font-size: 1.4vh;
     }
@@ -94,6 +98,10 @@
 }
 
 @media (max-width: 1200px) {
+    .album-detail>img {
+        height: 40vw;
+        width: 40vw;
+    }
     .info-detail h4 {
         font-size: 1.2vh;
     }
@@ -154,6 +162,10 @@
 }
 
 @media (max-width: 770px) {
+    .album-detail>img {
+        height: 55vw;
+        width: 55vw;
+    }
     .info-detail h4 {
         font-size: .8vh;
     }

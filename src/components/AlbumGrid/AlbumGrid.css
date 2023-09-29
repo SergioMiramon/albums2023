@@ -286,7 +286,7 @@ figure:hover .material-symbols-outlined {
     }
 }
 
-@media (max-width: 520px) {
+/* @media (max-width: 520px) {
     .info h4 {
         font-size: .6vh;
     }
@@ -314,9 +314,9 @@ figure:hover .material-symbols-outlined {
     .details p.hr {
         font-size: .6vh;
     }
-}
+} */
 
-@media (max-width: 400px) {
+/* @media (max-width: 400px) {
     .info h4 {
         font-size: .4vh;
     }
@@ -344,4 +344,4 @@ figure:hover .material-symbols-outlined {
     .details p.hr {
         font-size: .6vh;
     }
-}
+} */
