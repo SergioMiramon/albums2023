@@ -24,12 +24,11 @@ h2 {
     color: var(--main-bg-color);
 }
 .all {
-    gap: 5vw;
+    gap: 5vh;
     margin-bottom: 4vw;
 }
 
 .all>div {
     display: flex;
     flex-direction: column;
-    gap: 5vw;
 }
