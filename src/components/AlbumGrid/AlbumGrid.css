@@ -312,14 +312,14 @@ figure:hover .material-symbols-outlined {
 }
 
 @media (max-width: 400px) {
-    /* .info h4 {
+    .info h4 {
         font-size: .4vh;
     }
     
     .title h2 {
-        font-size: 1.2vh;
+        font-size: 1.3vh;
         color: var(--primary-bg-color);
-    } */
+    }
     
     .title .favs::after{
         content: "⭐";
