@@ -311,13 +311,13 @@ figure:hover .material-symbols-outlined {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 300px) {
     .info h4 {
         font-size: .4vh;
     }
     
     .title h2 {
-        font-size: 1.3vh;
+        font-size: 1.2vh;
         color: var(--primary-bg-color);
     }
     
