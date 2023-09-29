@@ -9,7 +9,6 @@ const App = () => {
     <>
       <Header headerImg={logo} headerAlt="logo"/>
       <Outlet></Outlet>
-      {/* <Main/> */}
     </>
   )
 }

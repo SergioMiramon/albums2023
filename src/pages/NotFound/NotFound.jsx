@@ -2,7 +2,9 @@ import "./NotFound.css"
 
 const NotFound = () => {
     return (
-        <p>Not Found</p>
+        <main>
+            <p className="nf">404 Page Not Found</p>
+        </main>
     )
 }
 

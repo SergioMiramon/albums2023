@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom'
 export const Header = ({headerImg, headerAlt}) => {
     return (
         <header>
-            <a href="#" id="logo">
+            <NavLink to="./" id="logo">
                 <img className="logo" src={headerImg} alt={headerAlt}/>
-            </a>
+            </NavLink>
             <nav>
             <ul>
                 <li>

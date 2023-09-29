@@ -16,7 +16,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="/" element={<App />}>
             <Route index element={<Monthly />}/>
             <Route path="/favs" element={<Favs />}/>
-            <Route path="/favs/:id" element={<AlbumDetail />}/>
+            <Route path="/favs/:title" element={<AlbumDetail />}/>
             <Route path="*" element={<NotFound />}/>
           </Route>
       </Routes>

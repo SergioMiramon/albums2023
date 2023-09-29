@@ -376,7 +376,7 @@ export const albums = [
     "hr": true
   },
   {
-    "title": "SCARING THE HOES ",
+    "title": "SCARING THE HOES",
     "artist": "JPEGMAFIA & Danny Brown ",
     "id": 6,
     "releasedate": "24/03/2023",
@@ -571,7 +571,7 @@ export const albums = [
     "hr": true
   },
   {
-    "title": "Metrópoli ",
+    "title": "Metrópoli",
     "artist": "Ciclo & Guerrita",
     "id": 13,
     "releasedate": "28/04/2023",
@@ -1321,7 +1321,7 @@ export const albums = [
     "hr": true
   },
   {
-    "title": "Papel de Burbujas ",
+    "title": "Papel de Burbujas",
     "artist": "Xavibo",
     "id": 90,
     "releasedate": "13/09/2023",
@@ -1448,12 +1448,12 @@ export const albums = [
     "month": "september",
     "type": "Album",
     "songs": 16,
-    "duration": "",
+    "duration": "43min 48s",
     "genre": "r&b",
     "image": "/icons/images/calendar/falling-or-flying.jpg",
     "favm": "",
-    "favs": "",
-    "hr": "No"
+    "favs": "⭐",
+    "hr": true
   }
 ]
 
@@ -1498,7 +1498,7 @@ export const albums = [
   export const favAlbums = albums.filter(album =>album.favs === "⭐")
 
   export const getAlbum = (title) => {
-  const foundAlbum = albums.find((album) => album.title === title);
+  const foundAlbum = albums.find((album) => album.title == title);
   return foundAlbum;
 }
 
