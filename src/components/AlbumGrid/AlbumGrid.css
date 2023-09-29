@@ -174,7 +174,6 @@ figure:hover .material-symbols-outlined {
     .title h2 {
         font-size: 2.4vh;
         color: var(--primary-bg-color);
-        grid-area: title;
     }
     
     .title .favs::after{
@@ -204,7 +203,6 @@ figure:hover .material-symbols-outlined {
     .title h2 {
         font-size: 2.2vh;
         color: var(--primary-bg-color);
-        grid-area: title;
     }
     
     .title .favs::after{
@@ -234,7 +232,6 @@ figure:hover .material-symbols-outlined {
     .title h2 {
         font-size: 1.8vh;
         color: var(--primary-bg-color);
-        grid-area: title;
     }
     
     .title .favs::after{
@@ -264,7 +261,6 @@ figure:hover .material-symbols-outlined {
     .title h2 {
         font-size: 1.6vh;
         color: var(--primary-bg-color);
-        grid-area: title;
     }
     
     .title .favs::after{
@@ -294,7 +290,6 @@ figure:hover .material-symbols-outlined {
     .title h2 {
         font-size: 1.4vh;
         color: var(--primary-bg-color);
-        grid-area: title;
     }
     
     .title .favs::after{
@@ -316,16 +311,15 @@ figure:hover .material-symbols-outlined {
     }
 }
 
-/* @media (max-width: 400px) {
-    .info h4 {
+@media (max-width: 400px) {
+    /* .info h4 {
         font-size: .4vh;
     }
     
     .title h2 {
         font-size: 1.2vh;
         color: var(--primary-bg-color);
-        grid-area: title;
-    }
+    } */
     
     .title .favs::after{
         content: "⭐";
@@ -344,4 +338,4 @@ figure:hover .material-symbols-outlined {
     .details p.hr {
         font-size: .6vh;
     }
-} */
+}
