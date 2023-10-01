@@ -1457,7 +1457,7 @@ export const albums = [
 ]
 
   export const dateSort = albums
-  .sort((a, b) => new Date(a.releasedate, "mm/dd/yyyy")  -  new Date(b.releasedate, "mm/dd/yyyy"))
+  .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
 
   export const favAlbums = albums.filter(album => album.favs === "⭐")
 
