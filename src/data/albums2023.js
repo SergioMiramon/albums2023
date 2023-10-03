@@ -1459,12 +1459,21 @@ export const albums = [
   export const dateSort = albums
   .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
 
+  const types = dateSort.map (data => data.type)
+  export const typeFilter = [...new Set(types)]
+  console.log(typeFilter)
+
+  const genres = dateSort.map (data => data.genre)
+  export const genreFilter = [...new Set(genres)]
+  console.log(genreFilter)
+  
+
   export const favAlbums = albums
   .filter(album => album.favs === "⭐")
 
   export const getAlbum = (title) => {
-  const foundAlbum = albums.find((album) => album.title == title);
-  return foundAlbum;
-}
+    const foundAlbum = albums.find((album) => album.title == title);
+    return foundAlbum;
+  };
 
   export const albumsCount = albums.length
