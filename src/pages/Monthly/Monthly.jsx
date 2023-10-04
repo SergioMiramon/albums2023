@@ -1,29 +1,21 @@
 import "./Monthly.css";
-import { dateSort, genreFilter, typeFilter } from "../../data/albums2023";
+import { dateSort } from "../../data/albums2023";
 import { AlbumGrid } from "../../components/AlbumGrid/AlbumGrid";
+import { Filter } from "../../components/Filter/Filter";
 import { useState } from "react";
 
 export const Monthly = () => {
-    // const [textValue,setTextValue]
+    const [typeValue,setTypeValue] = useState("all")
 
-    const onFilterValue = (e) => {
-        console.log(e.target.value)
+    // const filteredType = 
+
+    const onFilterSelected = (filterSelected) => {
+        setTypeValue(filterSelected)
     }
 
     return (
         <section>
-            <div className="filter">
-                <select className="filter-type" onChange={onFilterValue}>
-                    {typeFilter.map((type) => (
-                        <option value={`${type}`} key={type}>{`${type}`}</option>
-                    ))}
-                </select>
-                <select className="filter-genre" onChange={onFilterValue}>
-                    {genreFilter.map((genre) => (
-                        <option value={`${genre}`} key={genre}>{`${genre}`}</option>
-                    ))}
-                </select>
-            </div>
+            <Filter onFilterSelected={onFilterSelected}/>
             <div className="all">
             {dateSort.map((album) => (
                 <AlbumGrid album={album} key={album.id}/>
