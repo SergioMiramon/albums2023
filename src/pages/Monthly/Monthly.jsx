@@ -7,14 +7,11 @@ import { useState } from "react";
 export const Monthly = () => {
     const [typeValue,setTypeValue] = useState("")
     const [genreValue,setGenreValue] = useState("")
-    const [artistValue,setArtistValue] = useState("")
     console.log(typeValue)
 
-    const onFilterSelected = (filterSelected) => {
-        setTypeValue(filterSelected)
-        // setGenreValue(filterSelected)
-        // setArtistValue(filterSelected)
-        console.log(filterSelected)
+    const onTypeSelected = (typeSelected) => {
+        setTypeValue(typeSelected)
+        console.log(typeSelected)
     }
 
     const onGenreSelected = (genreSelected) => {
@@ -22,21 +19,37 @@ export const Monthly = () => {
         console.log(genreSelected)
     }
 
-    const onArtistSelected = (artistSelected) => {
-        setArtistValue(artistSelected)
-        console.log(artistSelected)
-    }
-
     return (
       <section>
-        <Filter onFilterSelected={onFilterSelected} />
+        <Filter
+          onTypeSelected={onTypeSelected}
+          onGenreSelected={onGenreSelected}
+        />
         <div className="all">
-          {typeValue === ""
+          {typeValue == "" && genreValue == ""
             ? dateSort.map((album) => (
                 <AlbumGrid album={album} key={album.id} />
               ))
+            : typeValue == "" || genreValue == ""
+            ? dateSort
+                .filter(
+                  (album) =>
+                    album.type == typeValue || album.genre == genreValue
+                )
+                .map((album) => <AlbumGrid album={album} key={album.id} />)
+            : genreValue && typeValue
+            ? dateSort
+                .filter(
+                  (album) =>
+                    album.type == typeValue && album.genre == genreValue
+                )
+                .map((album) => <AlbumGrid album={album} key={album.id} />)
             : dateSort
-                .filter((album) => album.type == typeValue && album.genre == genreValue && album.artist == artistValue)
+                .filter(
+                  (album) =>
+                    album.type == typeValue ||
+                    album.genre == genreValue
+                )
                 .map((album) => <AlbumGrid album={album} key={album.id} />)}
         </div>
       </section>

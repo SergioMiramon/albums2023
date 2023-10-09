@@ -12,27 +12,36 @@ export const AlbumDetail = () => {
             </main>
           );
         } else {
-            return(
-                <>
-        <main>
-            <section className="album-detail">
-            <img src={album.image} alt={album.title}/>
-                <div className="info-detail">
-                    <h4>{album.type}</h4>
-                    <div className="title-detail">
-                        {album.favs === "⭐"
-                        ? <h2 className="favs">{album.title}</h2>
-                        : <h2>{album.title}</h2>}
-                    </div>
-                    <div className="details-detail">
+            return (
+              <>
+                <main>
+                  <section className="album-detail">
+                    <img src={album.image} alt={album.title} />
+                    <div className="info-detail">
+                      <h4>{album.type}</h4>
+                      <div className="title-detail">
+                        {album.favs === "⭐" ? (
+                          <h2 className="favs">{album.title}</h2>
+                        ) : (
+                          <h2>{album.title}</h2>
+                        )}
+                      </div>
+                      <div className="details-detail">
                         <h3>{album.artist}</h3>
-                        <p>{album.releasedate} · {album.songs} songs · {album.duration}</p>
-                        {album.hr ? <p className="hr">*Highly Recommended*</p> : ""}
+                        <p>
+                          {album.releasedate} · {album.songs} songs ·{" "}
+                          {album.duration}
+                        </p>
+                        {album.hr ? (
+                          <p className="hr">*Highly Recommended*</p>
+                        ) : (
+                          ""
+                        )}
+                      </div>
                     </div>
-                </div>
-            </section>
-        </main>
-        </>
-            )
+                  </section>
+                </main>
+              </>
+            );
         }
     }
