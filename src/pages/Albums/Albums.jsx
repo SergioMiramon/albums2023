@@ -1,22 +1,19 @@
-import "./Monthly.css";
+import "./Albums.css";
 import { dateSort } from "../../data/albums2023";
 import { AlbumGrid } from "../../components/AlbumGrid/AlbumGrid";
 import { Filter } from "../../components/Filter/Filter";
 import { useState } from "react";
 
-export const Monthly = () => {
+export const Albums = () => {
     const [typeValue,setTypeValue] = useState("")
     const [genreValue,setGenreValue] = useState("")
-    console.log(typeValue)
 
     const onTypeSelected = (typeSelected) => {
         setTypeValue(typeSelected)
-        console.log(typeSelected)
     }
 
     const onGenreSelected = (genreSelected) => {
         setGenreValue(genreSelected)
-        console.log(genreSelected)
     }
 
     return (

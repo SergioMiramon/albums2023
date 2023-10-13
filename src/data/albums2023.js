@@ -1491,15 +1491,9 @@ export const albums = [
 
   const types = dateSort.map (data => data.type)
   export const typeFilter = [...new Set(types)]
-  console.log(typeFilter)
 
   const genres = dateSort.map (data => data.genre)
   export const genreFilter = [...new Set(genres)]
-  console.log(genreFilter)
-
-  const artists = dateSort.map (data => data.artist)
-  export const artistFilter = [...new Set(artists.sort())]
-  console.log(artistFilter)
   
 
   export const favAlbums = albums
