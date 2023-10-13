@@ -1453,6 +1453,36 @@ export const albums = [
     "favm": "",
     "favs": "⭐",
     "hr": true
+  },
+  {
+    "title": "And Then You Pray For Me",
+    "artist": "Westside Gunn",
+    "id": 107,
+    "releasedate": "10/13/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 21,
+    "duration": "1h 15min",
+    "genre": "rap",
+    "image": "/icons/images/calendar/and-then-you-pray-for-me.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "For All The Dogs",
+    "artist": "Drake",
+    "id": 108,
+    "releasedate": "10/6/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 23,
+    "duration": "1h 24min",
+    "genre": "rap",
+    "image": "/icons/images/calendar/for-all-the-dogs.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
   }
 ]
 
