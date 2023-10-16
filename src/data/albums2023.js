@@ -1513,22 +1513,22 @@ export const albums = [
     "favm": "",
     "favs": "",
     "hr": false
-  },
-  {
-    "title": "Heaven knows",
-    "artist": "PinkPantheress",
-    "id": 111,
-    "releasedate": "11/10/2023",
-    "month": "november",
-    "type": "Album",
-    "songs": "",
-    "duration": "",
-    "genre": "",
-    "image": "/icons/images/calendar/heaven-knows.jpg",
-    "favm": "",
-    "favs": "",
-    "hr": false
   }
+  // {
+  //   "title": "Heaven knows",
+  //   "artist": "PinkPantheress",
+  //   "id": 111,
+  //   "releasedate": "11/10/2023",
+  //   "month": "november",
+  //   "type": "Album",
+  //   "songs": "",
+  //   "duration": "",
+  //   "genre": "",
+  //   "image": "/icons/images/calendar/heaven-knows.jpg",
+  //   "favm": "",
+  //   "favs": "",
+  //   "hr": false
+  // }
 ]
 
   export const dateSort = albums
@@ -1548,6 +1548,7 @@ export const albums = [
 
   const types = dateSort.map (data => data.type)
   export const typeFilter = [...new Set(types)]
+  console.log(typeFilter)
 
   const genres = dateSort.map (data => data.genre)
   export const genreFilter = [...new Set(genres)]
