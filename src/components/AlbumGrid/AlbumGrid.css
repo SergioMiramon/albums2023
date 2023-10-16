@@ -285,7 +285,7 @@ figure img {
     }
 }
 
-/* @media (max-width: 300px) {
+@media (max-width: 300px) {
     .info h4 {
         font-size: .4vh;
     }
@@ -312,4 +312,4 @@ figure img {
     .details p.hr {
         font-size: .6vh;
     }
-} */
+}

@@ -21,7 +21,7 @@
     -o-border-radius: 5px;
 }
 .filter-type, .filter-genre{
-    width: 4vw;
+    max-width: inherit;
 }
 
 
