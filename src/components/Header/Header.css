@@ -24,6 +24,10 @@ nav ul li a{
     font-size: 1.6vh;
 }
 
+.active{
+    color: var(--tertiary-color);
+}
+
 .logo{
     width: 2.5vh;
     max-width: 750px;

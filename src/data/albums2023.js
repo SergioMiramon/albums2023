@@ -371,7 +371,7 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/dyktttuob.jpg",
     "favm": "",
-    "favs": "",
+    "favs": "⭐",
     "hr": true
   },
   {
@@ -1376,7 +1376,7 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/summer-series23.jpg",
     "favm": "",
-    "favs": "",
+    "favs": "⭐",
     "hr": true
   },
   {
@@ -1467,13 +1467,13 @@ export const albums = [
     "image": "/icons/images/calendar/and-then-you-pray-for-me.jpg",
     "favm": "",
     "favs": "",
-    "hr": false
+    "hr": true
   },
   {
     "title": "For All The Dogs",
     "artist": "Drake",
     "id": 108,
-    "releasedate": "10/6/2023",
+    "releasedate": "10/06/2023",
     "month": "october",
     "type": "Album",
     "songs": 23,
@@ -1483,11 +1483,68 @@ export const albums = [
     "favm": "",
     "favs": "",
     "hr": false
+  },
+  {
+    "title": "COSAS QUE BRILLAN",
+    "artist": "Ébano & A.Dense",
+    "id": 109,
+    "releasedate": "10/15/2023",
+    "month": "october",
+    "type": "EP",
+    "songs": 6,
+    "duration": "15min 13s",
+    "genre": "rap",
+    "image": "/icons/images/calendar/cosas-que-brillan.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "The Dark Side of The Moon Redux",
+    "artist": "Roger Waters",
+    "id": 110,
+    "releasedate": "10/06/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 10,
+    "duration": "47min 54s",
+    "genre": "rock",
+    "image": "/icons/images/calendar/the-dark-side-of-the-moon-redux.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Heaven knows",
+    "artist": "PinkPantheress",
+    "id": 111,
+    "releasedate": "11/10/2023",
+    "month": "november",
+    "type": "Album",
+    "songs": "",
+    "duration": "",
+    "genre": "",
+    "image": "/icons/images/calendar/heaven-knows.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
   }
 ]
 
   export const dateSort = albums
   .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
+
+
+  // export const todayDate = Date.now()
+  // export const today = new Date(todayDate)
+  // export const actualDay = `${today.getMonth()}/${today.getDate()}/${today.getFullYear()}`
+  // console.log(actualDay)
+
+
+
+  // export const next = albums.map(album => album.releasedate > actualDay)
+  // console.log(next)
+
 
   const types = dateSort.map (data => data.type)
   export const typeFilter = [...new Set(types)]
