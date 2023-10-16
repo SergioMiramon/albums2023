@@ -1494,7 +1494,6 @@ export const albums = [
 
   const genres = dateSort.map (data => data.genre)
   export const genreFilter = [...new Set(genres)]
-  
 
   export const favAlbums = albums
   .filter(album => album.favs === "⭐")

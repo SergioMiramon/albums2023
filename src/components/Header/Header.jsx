@@ -9,7 +9,7 @@ export const Header = ({headerImg, headerAlt}) => {
             <nav>
             <ul>
                 <li>
-                    <NavLink to="/" id="monthlylink">Monthly</NavLink>
+                    <NavLink to="/" id="albumslink">Albums</NavLink>
                 </li>
                 <li>
                     <NavLink to="/favs" id='favslink'>Favs</NavLink>

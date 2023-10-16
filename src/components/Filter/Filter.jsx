@@ -1,15 +1,13 @@
 import "./Filter.css";
-import {genreFilter, typeFilter } from "../../data/albums2023";
+import { genreFilter, typeFilter } from "../../data/albums2023";
 
 export const Filter = ({onTypeSelected, onGenreSelected}) => {
 
     const onTypeValue = (e) => {
-        console.log(e.target.value)
         onTypeSelected(e.target.value)
     }
     
     const onGenreValue = (e) => {
-        console.log(e.target.value)
         onGenreSelected(e.target.value)
     }
 
