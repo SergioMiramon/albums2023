@@ -14,14 +14,14 @@
     overflow: hidden;
     border: 1px solid rgba(255, 255, 255, 0.5);
     cursor: pointer;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 .filter-type, .filter-genre{
     max-width: inherit;
+    font-size: .8vw;
 }
-
 
