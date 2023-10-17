@@ -83,7 +83,7 @@ export const albums = [
     "type": "Album",
     "songs": 10,
     "duration": "37min 29s",
-    "genre": "pop",
+    "genre": "indie",
     "image": "/icons/images/calendar/cracker-island.jpg",
     "favm": "",
     "favs": "",
@@ -566,7 +566,7 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/that-feels-good.jpg",
     "favm": "",
-    "favs": "⭐",
+    "favs": "",
     "hr": true
   },
   {
@@ -656,7 +656,7 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/oraculo.jpg",
     "favm": "",
-    "favs": "⭐",
+    "favs": "",
     "hr": false
   },
   {
@@ -818,7 +818,7 @@ export const albums = [
     "type": "EP",
     "songs": 4,
     "duration": "16min 23s",
-    "genre": "drill",
+    "genre": "rap",
     "image": "/icons/images/calendar/split-decision.jpg",
     "favm": "",
     "favs": "",
@@ -1151,7 +1151,7 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/the-loveliest-time.jpg",
     "favm": "",
-    "favs": "⭐",
+    "favs": "",
     "hr": true
   },
   {
@@ -1196,7 +1196,7 @@ export const albums = [
     "genre": "dance",
     "image": "/icons/images/calendar/volcano.jpg",
     "favm": "⭐",
-    "favs": "⭐",
+    "favs": "",
     "hr": true
   },
   {
@@ -1211,7 +1211,7 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/sundial.jpg",
     "favm": "",
-    "favs": "⭐",
+    "favs": "",
     "hr": true
   },
   {
@@ -1513,11 +1513,56 @@ export const albums = [
     "favm": "",
     "favs": "",
     "hr": false
+  },
+  {
+    "title": "Ve a Terapia",
+    "artist": "Celia Becks",
+    "id": 111,
+    "releasedate": "09/27/2023",
+    "month": "september",
+    "type": "Album",
+    "songs": 9,
+    "duration": "30min 35s",
+    "genre": "pop",
+    "image": "/icons/images/calendar/ve-a-terapia.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "KAYTRAMINÉ",
+    "artist": "Aminé & KAYTRANADA",
+    "id": 112,
+    "releasedate": "05/19/2023",
+    "month": "may",
+    "type": "Album",
+    "songs": 11,
+    "duration": "33min 43s",
+    "genre": "rap",
+    "image": "/icons/images/calendar/kaytramine.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "nadie sabe lo que va a pasar mañana",
+    "artist": "Bad Bunny",
+    "id": 113,
+    "releasedate": "10/13/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 22,
+    "duration": "1h 21min",
+    "genre": "reggaeton",
+    "image": "/icons/images/calendar/nadie-sabe.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
   }
   // {
   //   "title": "Heaven knows",
   //   "artist": "PinkPantheress",
-  //   "id": 111,
+  //   "id": 200,
   //   "releasedate": "11/10/2023",
   //   "month": "november",
   //   "type": "Album",
@@ -1544,7 +1589,6 @@ export const albums = [
 
   // export const next = albums.map(album => album.releasedate > actualDay)
   // console.log(next)
-
 
   const types = dateSort.map (data => data.type).sort()
   export const typeFilter = [...new Set(types)]
