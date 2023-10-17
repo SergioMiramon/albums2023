@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: flex-start;
     gap: 1vw;
-    margin-bottom: 5vh;
+    margin-bottom: 4vh;
 }
 .filter select{
     text-align: center;

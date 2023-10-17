@@ -1466,7 +1466,7 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/and-then-you-pray-for-me.jpg",
     "favm": "",
-    "favs": "",
+    "favs": "⭐",
     "hr": true
   },
   {
@@ -1548,7 +1548,6 @@ export const albums = [
 
   const types = dateSort.map (data => data.type)
   export const typeFilter = [...new Set(types)]
-  console.log(typeFilter)
 
   const genres = dateSort.map (data => data.genre)
   export const genreFilter = [...new Set(genres)]

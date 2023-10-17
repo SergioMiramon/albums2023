@@ -17,7 +17,7 @@ section>div {
 }
 
 h1 {
-    color: var(--secundary-bg-color);
+    color: var(--secondary-bg-color);
     text-transform: capitalize;
 }
 h2 {
@@ -31,4 +31,9 @@ h2 {
 .all>div {
     display: flex;
     flex-direction: column;
+}
+@media (max-width: 770px) {
+    section{
+        padding: 0;
+    }
 }

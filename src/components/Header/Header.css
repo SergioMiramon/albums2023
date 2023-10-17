@@ -38,6 +38,9 @@ nav ul li a{
 }
 
 @media (max-width: 770px) {
+    header{
+        position: relative;
+    }
     .logo{
         width: 2vh;
         margin-top: 5px;
