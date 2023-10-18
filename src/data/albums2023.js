@@ -1579,6 +1579,9 @@ export const albums = [
   export const dateSort = albums
   .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
 
+  // export const dateSortReverse = albums
+  // .sort((a, b) => new Date(b.releasedate)  -  new Date(a.releasedate))
+
 
   // export const todayDate = Date.now()
   // export const today = new Date(todayDate)
@@ -1606,4 +1609,4 @@ export const albums = [
     return foundAlbum;
   };
 
-  export const albumsCount = albums.length
+  export const albumsTot = albums.length
