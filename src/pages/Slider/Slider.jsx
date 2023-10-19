@@ -1,5 +1,5 @@
 import { favSlider } from "../../data/slider"
-import "./slider.css"
+import "./Slider.css"
 export const Slider = () => {
 
     return (
