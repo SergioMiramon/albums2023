@@ -7,7 +7,6 @@
     flex-direction: row;
     animation: sliderScroll 20s linear infinite;
     -webkit-animation: sliderScroll 20s linear infinite;
-    z-index: 1;
 }
 
 
