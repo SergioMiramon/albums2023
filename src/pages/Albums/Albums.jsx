@@ -27,13 +27,13 @@ export const Albums = () => {
             {!albumsSort ? (
               <img
                 onClick={() => setAlbumsSort(!albumsSort)}
-                src="../../../public/icons/images/arrows/sort-ascending.png"
+                src="/icons/images/arrows/sort-ascending.png"
                 alt="ascending-arrow"
               />
             ) : (
               <img
                 onClick={() => setAlbumsSort(!albumsSort)}
-                src="../../../public/icons/images/arrows/sort-descending.png"
+                src="/icons/images/arrows/sort-descending.png"
                 alt="ascending-arrow"
               />
             )}
