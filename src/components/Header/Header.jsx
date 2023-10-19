@@ -14,6 +14,9 @@ export const Header = ({headerImg, headerAlt}) => {
                 <li>
                     <NavLink to="/favs" id='favslink'>Favs</NavLink>
                 </li>
+                <li>
+                    <NavLink to="/slider" id='sliderlink'>Slider</NavLink>
+                </li>
             </ul>
             </nav>
         </header>

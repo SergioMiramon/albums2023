@@ -6,8 +6,8 @@ import { useState } from "react";
 export const Albums = () => {
     const [typeValue,setTypeValue] = useState("")
     const [genreValue,setGenreValue] = useState("")
-    const [albumsSort, setAlbumsSort] = useState(false)
-    // const [albumsCount, setAlbumsCount] = useState(0)
+    const [albumsSort, setAlbumsSort] = useState(true)
+    // const [albumsCount, setAlbumsCount] = useState([])
 
     const onTypeSelected = (typeSelected) => {
         setTypeValue(typeSelected)
@@ -16,33 +16,61 @@ export const Albums = () => {
     const onGenreSelected = (genreSelected) => {
         setGenreValue(genreSelected)
     }
-    
-    const onAlbumsSort = () => {
-        setAlbumsSort( albumsSort ? dateSort : dateSort.reverse())
-        // setAlbumsSort(dateSort.Sort())
-        console.log(onAlbumsSort)
-    }
-
-    // const onAlbumsCount = () => {
-    //   dateSort.length
-    // }
-    // albumsCount
-
-    // console.log(dateSort.length)
-
     return (
       <section>
-        <Filter
-          onTypeSelected={onTypeSelected}
-          onGenreSelected={onGenreSelected}
-        />
-        <button className="reverse-filter" onClick={onAlbumsSort}>||||||</button>
-        <div className="album-count">{`(${albumsTot})`}</div>
+        <section className="filter-section">
+          <Filter
+            onTypeSelected={onTypeSelected}
+            onGenreSelected={onGenreSelected}
+          />
+          <div className="reverse-filter">
+            {!albumsSort ? (
+              <img
+                onClick={() => setAlbumsSort(!albumsSort)}
+                src="../../../public/icons/images/arrows/sort-ascending.png"
+                alt="ascending-arrow"
+              />
+            ) : (
+              <img
+                onClick={() => setAlbumsSort(!albumsSort)}
+                src="../../../public/icons/images/arrows/sort-descending.png"
+                alt="ascending-arrow"
+              />
+            )}
+
+            <div className="album-count">{`(${albumsTot})`}</div>
+          </div>
+        </section>
         <div className="all">
-          {typeValue == "" && genreValue == ""
-            ? dateSort.map((album) => (
-                <AlbumGrid album={album} key={album.id} />
-              ))
+          {albumsSort
+            ? typeValue == "" && genreValue == ""
+              ? dateSort.map((album) => (
+                  <AlbumGrid album={album} key={album.id} />
+                ))
+              : typeValue == "" || genreValue == ""
+              ? dateSort
+                  .filter(
+                    (album) =>
+                      album.type == typeValue || album.genre == genreValue
+                  )
+                  .map((album) => <AlbumGrid album={album} key={album.id} />)
+              : genreValue && typeValue
+              ? dateSort
+                  .filter(
+                    (album) =>
+                      album.type == typeValue && album.genre == genreValue
+                  )
+                  .map((album) => <AlbumGrid album={album} key={album.id} />)
+              : dateSort
+                  .filter(
+                    (album) =>
+                      album.type == typeValue || album.genre == genreValue
+                  )
+                  .map((album) => <AlbumGrid album={album} key={album.id} />)
+            : typeValue == "" && genreValue == ""
+            ? dateSort
+                .map((album) => <AlbumGrid album={album} key={album.id} />)
+                .reverse()
             : typeValue == "" || genreValue == ""
             ? dateSort
                 .filter(
@@ -50,6 +78,7 @@ export const Albums = () => {
                     album.type == typeValue || album.genre == genreValue
                 )
                 .map((album) => <AlbumGrid album={album} key={album.id} />)
+                .reverse()
             : genreValue && typeValue
             ? dateSort
                 .filter(
@@ -57,13 +86,14 @@ export const Albums = () => {
                     album.type == typeValue && album.genre == genreValue
                 )
                 .map((album) => <AlbumGrid album={album} key={album.id} />)
+                .reverse()
             : dateSort
                 .filter(
                   (album) =>
-                    album.type == typeValue ||
-                    album.genre == genreValue
+                    album.type == typeValue || album.genre == genreValue
                 )
-                .map((album) => <AlbumGrid album={album} key={album.id} />)}
+                .map((album) => <AlbumGrid album={album} key={album.id} />)
+                .reverse()}
         </div>
       </section>
     );

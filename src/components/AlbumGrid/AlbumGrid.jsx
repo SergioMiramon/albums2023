@@ -28,7 +28,6 @@ export const AlbumGrid = ({album}) => {
                     <div className="details">
                         <h3>{album.artist}</h3>
                         <p>{album.releasedate} · {album.songs} songs · {album.duration}</p>
-                        {/* {album.hr ? <p className="hr">*Highly Recommended*</p> : ""} */}
                     </div>
                 </div>
         </figure>

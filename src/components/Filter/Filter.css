@@ -1,12 +1,10 @@
-.filter{
-    width: 60vw;
+.filters{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     gap: 1vw;
-    margin-bottom: 4vh;
 }
-.filter select{
+.filters select{
     max-height: 3vh;
     max-width: 22vw;
     text-align: center;
@@ -22,8 +20,5 @@
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
 }
-/* .filter-type, .filter-genre{
-    max-width: inherit;
-} */
 
 
