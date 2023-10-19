@@ -25,7 +25,7 @@ section{
 }
 
 .reverse-filter img{
-    max-width: 3vh;
+    max-width: 2.5vh;
     filter: invert(1);
     -webkit-filter: invert(1);
 }

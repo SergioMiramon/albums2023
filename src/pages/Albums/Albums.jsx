@@ -38,7 +38,7 @@ export const Albums = () => {
               />
             )}
 
-            <div className="album-count">{`(${albumsTot})`}</div>
+            {/* <div className="album-count">{`(${albumsTot})`}</div> */}
           </div>
         </section>
         <div className="all">
