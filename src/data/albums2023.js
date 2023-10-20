@@ -1591,18 +1591,24 @@ export const albums = [
   // export const next = albums.map(album => album.releasedate > actualDay)
   // console.log(next)
 
-  const types = dateSort.map (data => data.type).sort()
-  export const typeFilter = [...new Set(types)]
+  const types = dateSort.map((data) => data.type).sort();
+  export const typeFilter = [...new Set(types)];
 
-  const genres = dateSort.map (data => data.genre).sort()
-  export const genreFilter = [...new Set(genres)]
+  const genres = dateSort.map((data) => data.genre).sort();
+  export const genreFilter = [...new Set(genres)];
 
-  export const favAlbums = albums
-  .filter(album => album.favs === "⭐")
+  export const favAlbums = albums.filter((album) => album.favs === "⭐");
 
   export const getAlbum = (title) => {
     const foundAlbum = albums.find((album) => album.title == title);
     return foundAlbum;
   };
 
-  export const albumsTot = albums.length
+  export const albumsTot = albums.length;
+
+  export const shuffleSlider = albums
+    .map((album) => ({ album, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ album }) => album);
+
+  console.log(shuffleSlider);

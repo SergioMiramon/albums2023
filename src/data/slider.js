@@ -1484,21 +1484,21 @@ export const slider = [
     //   "favs": "",
     //   "hr": false
     // },
-    {
-      "title": "COSAS QUE BRILLAN",
-      "artist": "Ébano & A.Dense",
-      "id": 109,
-      "releasedate": "10/15/2023",
-      "month": "october",
-      "type": "EP",
-      "songs": 6,
-      "duration": "15min 13s",
-      "genre": "rap",
-      "image": "/icons/images/calendar/cosas-que-brillan.jpg",
-      "favm": "",
-      "favs": "",
-      "hr": false
-    },
+    // {
+    //   "title": "COSAS QUE BRILLAN",
+    //   "artist": "Ébano & A.Dense",
+    //   "id": 109,
+    //   "releasedate": "10/15/2023",
+    //   "month": "october",
+    //   "type": "EP",
+    //   "songs": 6,
+    //   "duration": "15min 13s",
+    //   "genre": "rap",
+    //   "image": "/icons/images/calendar/cosas-que-brillan.jpg",
+    //   "favm": "",
+    //   "favs": "",
+    //   "hr": false
+    // },
     {
       "title": "The Dark Side of The Moon Redux",
       "artist": "Roger Waters",
@@ -1582,3 +1582,16 @@ export const slider = [
 
   export const favSlider = slider
   .filter(slider => slider.favs === "⭐")
+
+  const sliderTot = slider.length
+
+  const shuffleAlbums = (slider) => {
+    for (let i = slider.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [slider[i], slider[j]] = [slider[j], slider[i]];
+    }
+}
+
+export const shuffle =  shuffleAlbums(sliderAlbums)
+
+console.log(shuffle)
