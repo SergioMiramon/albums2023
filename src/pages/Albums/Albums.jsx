@@ -7,7 +7,6 @@ export const Albums = () => {
     const [typeValue,setTypeValue] = useState("")
     const [genreValue,setGenreValue] = useState("")
     const [albumsSort, setAlbumsSort] = useState(true)
-    // const [albumsCount, setAlbumsCount] = useState([])
 
     const onTypeSelected = (typeSelected) => {
         setTypeValue(typeSelected)
@@ -37,8 +36,6 @@ export const Albums = () => {
                 alt="ascending-arrow"
               />
             )}
-
-            {/* <div className="album-count">{`(${albumsTot})`}</div> */}
           </div>
         </section>
         <div className="all">

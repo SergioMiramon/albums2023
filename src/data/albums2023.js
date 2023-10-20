@@ -1586,8 +1586,6 @@ export const albums = [
   // export const actualDay = `${today.getMonth()}/${today.getDate()}/${today.getFullYear()}`
   // console.log(actualDay)
 
-
-
   // export const next = albums.map(album => album.releasedate > actualDay)
   // console.log(next)
 
@@ -1600,11 +1598,11 @@ export const albums = [
   export const favAlbums = albums.filter((album) => album.favs === "⭐");
 
   export const getAlbum = (title) => {
-    const foundAlbum = albums.find((album) => album.title == title);
+    const foundAlbum = albums.find((album) => album.title === title);
     return foundAlbum;
   };
 
-  export const albumsTot = albums.length;
+  export const albumsTot = favAlbums.length;
 
   export const shuffleSlider = albums
     .map((album) => ({ album, sort: Math.random() }))

@@ -1,32 +1,16 @@
-section{
-    position: relative;
-    width: 100vw;
-    padding-top: 8vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.favs-section {
+    gap: 4vh;
+    margin-bottom: 4vh;
 }
 
-section>div {
-    position: relative;
-    width: 60vw;
-    height: inherit;
+.favs-header {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.favs {
-    gap: 5vh;
-    margin-bottom: 4vw;
-}
-
-.favs>div {
-    display: flex;
-    flex-direction: column;
-    gap: 5vw;
-}
-.favs>h1{
+.favs-header>h1{
     font-size: 1.8vh;
     margin-bottom: -2.5vh;
     color: var(--white-color);
 }
+
