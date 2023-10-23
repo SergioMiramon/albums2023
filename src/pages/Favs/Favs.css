@@ -1,16 +1,39 @@
-.favs-section {
-    gap: 4vh;
-    margin-bottom: 4vh;
-}
-
 .favs-header {
+    max-width: 60vw;
+    height: inherit;
+    padding-top: 0;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .favs-header>h1{
     font-size: 1.8vh;
-    margin-bottom: -2.5vh;
     color: var(--white-color);
 }
 
+.favs {
+    padding-top: 2vh;
+    gap: 4vh;
+    margin-bottom: 4vh;
+}
+
+.favs>a {
+    width: 60vw;
+    animation: scaleFavs .5s linear;
+    -webkit-animation: scaleFavs .5s linear;
+}
+
+@keyframes scaleFavs {
+    0% {
+      scale: 98%;
+    }
+    100% {
+      scale: 100%;
+    }
+  }
+
+@media (max-width: 770px) {
+    .favs-section{
+        padding: 0;
+    }
+}

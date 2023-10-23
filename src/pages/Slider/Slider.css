@@ -1,19 +1,19 @@
 .slider-section{
+    position: fixed;
     width: 100vw;
     height: calc(100vh - 8vh);
     display: flex;
     flex-direction: row;
-    animation: sliderScroll 280s linear infinite;
-    -webkit-animation: sliderScroll 280s linear infinite;
+    animation: sliderScroll 360s linear infinite;
+    -webkit-animation: sliderScroll 360s linear infinite;
 }
-
 
 @keyframes sliderScroll {
   0% {
     left: 0%;
   }
   50% {
-    left: -500vw;
+    left: -940vw;
   }
   100% {
     left: 0%;
@@ -46,6 +46,7 @@
   -ms-transition: opacity 0.5s ease;
   -o-transition: opacity 0.5s ease;
 }
+
 .modal-slider.show{
   visibility: visible;
   opacity: 1;
@@ -89,16 +90,6 @@
   }
 }
 
-/* .modal-slider img{
-position: relative;
-height: 60%;
-width: 60%;
-object-fit: contain;
-display: flex;
-align-items: center;
-justify-content: center;
-} */
-
 .slider-section div {
     width: 100vw;
     height: 100vh;
@@ -115,16 +106,6 @@ justify-content: center;
   align-items: center;
   object-fit: cover;
 }
-
-.slider-section>div:hover img {
-  height: 100vh;
-  filter: scale(1.2);
-  display: flex;
-  align-items: center;
-  object-fit: cover;
-  -webkit-filter: scale(1.2);
-}
-
 
 .slider-section img{
     width: 10vw;

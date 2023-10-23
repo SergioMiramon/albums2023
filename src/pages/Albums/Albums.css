@@ -1,14 +1,14 @@
+
 .filter-section{
     max-width: 60vw;
     height: inherit;
     padding-top: 0;
     display: flex;
     flex-direction:row;
-    justify-content: center;
-    margin-bottom: 2vh;
 }
 
 .reverse-filter {
+    width: inherit;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -27,17 +27,34 @@ h1 {
 h2 {
     color: var(--main-bg-color);
 }
-.all {
-    gap: 5vh;
-    margin-bottom: 4vw;
+.albums {
+    padding-top: 2vh;
+    gap: 4vh;
+    margin-bottom: 4vh;
 }
 
-.all>div {
+.albums>div {
     display: flex;
     flex-direction: column;
 }
+
+.albums>figure{
+    width: 60vw;
+    animation: scaleAlbums .5s linear;
+    -webkit-animation: scaleAlbums .5s linear;
+}
+
+@keyframes scaleAlbums {
+    0% {
+      scale: 98%;
+    }
+    100% {
+      scale: 100%;
+    }
+  }
+
 @media (max-width: 770px) {
-    section{
+    .albums-section{
         padding: 0;
     }
 }

@@ -1,5 +1,5 @@
 import "./Albums.css";
-import { albumsTot, dateSort } from "../../data/albums2023";
+import { dateSort } from "../../data/albums2023";
 import { AlbumGrid } from "../../components/AlbumGrid/AlbumGrid";
 import { Filter } from "../../components/Filter/Filter";
 import { useState } from "react";
@@ -16,7 +16,7 @@ export const Albums = () => {
         setGenreValue(genreSelected)
     }
     return (
-      <section>
+      <section className="albums-section">
         <section className="filter-section">
           <Filter
             onTypeSelected={onTypeSelected}
@@ -38,7 +38,7 @@ export const Albums = () => {
             )}
           </div>
         </section>
-        <div className="all">
+        <section className="albums">
           {albumsSort
             ? typeValue == "" && genreValue == ""
               ? dateSort.map((album) => (
@@ -91,7 +91,7 @@ export const Albums = () => {
                 )
                 .map((album) => <AlbumGrid album={album} key={album.id} />)
                 .reverse()}
-        </div>
+        </section>
       </section>
     );
 }
