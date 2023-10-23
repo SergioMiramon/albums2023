@@ -128,4 +128,8 @@
     position: fixed;
     top: 0;
   }
+  .modal-slider.show img{
+    width: 100vw;
+    height: 100vw;
+  }
 }
