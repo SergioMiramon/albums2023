@@ -72,7 +72,7 @@
   position: absolute;
   background-color: transparent;
   color: transparent;
-  width: 100vh;
+  width: inherit;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -123,3 +123,9 @@
   -o-transform: rotate(180deg);
 }
 
+@media (max-width: 770px) {
+  .slider-section{
+    position: fixed;
+    top: 0;
+  }
+}
