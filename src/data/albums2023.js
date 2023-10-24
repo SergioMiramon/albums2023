@@ -1558,6 +1558,171 @@ export const albums = [
     "favm": "",
     "favs": "",
     "hr": false
+  },
+  {
+    "title": "Obsidian",
+    "artist": "Naomi Sharon",
+    "id": 114,
+    "releasedate": "10/20/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 13,
+    "duration": "41min 45s",
+    "genre": "r&b",
+    "image": "/icons/images/calendar/obsidian.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Lahai",
+    "artist": "Sampha",
+    "id": 115,
+    "releasedate": "10/20/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 14,
+    "duration": "41min",
+    "genre": "r&b",
+    "image": "/icons/images/calendar/lahai.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "JOSÉ",
+    "artist": "Gese da O",
+    "id": 116,
+    "releasedate": "10/05/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 7,
+    "duration": "15min 1s",
+    "genre": "rap",
+    "image": "/icons/images/calendar/jose.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "CLEAR 2: SOFT LIFE",
+    "artist": "Summer Walker",
+    "id": 117,
+    "releasedate": "05/19/2023",
+    "month": "may",
+    "type": "EP",
+    "songs": 9,
+    "duration": "28min 8s",
+    "genre": "r&b",
+    "image": "/icons/images/calendar/clear-2.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "SUPERNOVA",
+    "artist": "Ralphie Choo",
+    "id": 118,
+    "releasedate": "09/15/2023",
+    "month": "september",
+    "type": "Album",
+    "songs": 14,
+    "duration": "36min 51s",
+    "genre": "r&b",
+    "image": "/icons/images/calendar/supernova.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Fanfare",
+    "artist": "Dorian Electra",
+    "id": 119,
+    "releasedate": "10/06/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 13,
+    "duration": "41min 21s",
+    "genre": "hyperpop",
+    "image": "/icons/images/calendar/fanfare.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Something To Give Each Other",
+    "artist": "Troye Sivan",
+    "id": 120,
+    "releasedate": "10/13/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 10,
+    "duration": "43min 45s",
+    "genre": "pop",
+    "image": "/icons/images/calendar/something-to-give-each-other.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Trincheira Nº02",
+    "artist": "Jovelina",
+    "id": 121,
+    "releasedate": "10/24/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 10,
+    "duration": "16min 3s",
+    "genre": "rock",
+    "image": "/icons/images/calendar/trincheira-n02.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Perfect Picture",
+    "artist": "Hannah Diamond",
+    "id": 122,
+    "releasedate": "10/06/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 12,
+    "duration": "40min 37s",
+    "genre": "pop",
+    "image": "/icons/images/calendar/perfect-picture.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Water Made Us",
+    "artist": "Jamila Woods",
+    "id": 123,
+    "releasedate": "10/13/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 17,
+    "duration": "45min 11s",
+    "genre": "r&b",
+    "image": "/icons/images/calendar/water-made-us.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Javelin",
+    "artist": "Sufjan Stevens",
+    "id": 124,
+    "releasedate": "10/06/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 10,
+    "duration": "42min 4s",
+    "genre": "indie",
+    "image": "/icons/images/calendar/javelin.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
   }
   // {
   //   "title": "Heaven knows",
@@ -1578,7 +1743,6 @@ export const albums = [
 
   export const dateSort = albums
   .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
-  console.log(dateSort)
 
 
   // export const todayDate = Date.now()
@@ -1608,5 +1772,3 @@ export const albums = [
     .map((album) => ({ album, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
     .map(({ album }) => album);
-
-  console.log(shuffleSlider);

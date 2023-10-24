@@ -20,6 +20,10 @@ nav ul li {
     color: var(--white-color);
 }
 
+nav ul li:hover {
+    color: var(--tertiary-color);
+}
+
 nav ul li a{
     font-size: 1.6vh;
 }
