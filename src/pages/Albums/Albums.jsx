@@ -31,6 +31,11 @@ export const Albums = () => {
     const onGenreSelected = (genreSelected) => {
         setGenreValue(genreSelected)
     }
+
+    useEffect(() => {
+      paginationAlbums();
+    }, [currentPage]);
+
     return (
       <section className="albums-section">
         <section className="filter-section">
