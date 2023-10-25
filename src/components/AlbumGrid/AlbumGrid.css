@@ -112,7 +112,7 @@ figure img {
     margin-bottom: 0;
 }
 
-.title .favs::after{
+.title .favs-title::after{
     content: "⭐";
     font-size: 1.8vh;
     position: absolute;
@@ -149,7 +149,7 @@ figure img {
         font-size: 2.4vh;
     }
     
-    .title .favs::after{
+    .title .favs-title::after{
         font-size: 1.4vh;
     }
     
@@ -175,7 +175,7 @@ figure img {
         font-size: 2.2vh;
     }
     
-    .title .favs::after{
+    .title .favs-title::after{
         font-size: 1.2vh;
     }
     
@@ -201,7 +201,7 @@ figure img {
         font-size: 1.8vh;
     }
     
-    .title .favs::after{
+    .title .favs-title::after{
         font-size: 1vh;
     }
     
@@ -227,7 +227,7 @@ figure img {
         font-size: 1.6vh;
     }
     
-    .title .favs::after{
+    .title .favs-title::after{
         font-size: .8vh;
     }
     
@@ -253,7 +253,7 @@ figure img {
         font-size: 1.4vh;
     }
     
-    .title .favs::after{
+    .title .favs-title::after{
         font-size: .6vh;
     }
     
@@ -279,7 +279,7 @@ figure img {
         font-size: 1vh;
     }
     
-    .title .favs::after{
+    .title .favs-title::after{
         font-size: .6vh;
     }
     

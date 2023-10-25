@@ -22,7 +22,7 @@ export const AlbumGrid = ({album}) => {
                     <h4>{album.type}</h4>
                     <div className="title">
                         {album.favs === "⭐"
-                        ? <h2 className="favs">{album.title}</h2>
+                        ? <h2 className="favs-title">{album.title}</h2>
                         : <h2>{album.title}</h2>}
                     </div>
                     <div className="details">

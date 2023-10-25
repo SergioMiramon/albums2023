@@ -23,6 +23,10 @@
     -webkit-animation: scaleFavs .5s linear;
 }
 
+.favs-title {
+    padding-top: 0;
+}
+
 @keyframes scaleFavs {
     0% {
       scale: 98%;

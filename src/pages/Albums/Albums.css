@@ -21,11 +21,11 @@
 
 .pagination {
     width: 10vw;
-    padding-top: 4vh;
+    padding-top: 2vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 4vh;
+    margin-bottom: 2vh;
 }
 
 .pagination img{
