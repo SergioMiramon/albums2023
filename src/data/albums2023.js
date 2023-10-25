@@ -1743,8 +1743,10 @@ export const albums = [
 
   export const dateSort = albums
   .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
+  console.log(dateSort)
 
-  console.log(dateSort.length)
+  export const albumsTot = dateSort.length;
+  console.log(albumsTot)
 
   // export const todayDate = Date.now()
   // export const today = new Date(todayDate)
@@ -1763,11 +1765,11 @@ export const albums = [
   export const favAlbums = albums.filter((album) => album.favs === "⭐");
 
   export const getAlbum = (title) => {
-    const foundAlbum = albums.find((album) => album.title === title);
+    const foundAlbum = albums.find((album) => album.title == title);
     return foundAlbum;
   };
 
-  export const albumsTot = favAlbums.length;
+  export const favsTot = favAlbums.length;
 
   export const shuffleSlider = albums
     .map((album) => ({ album, sort: Math.random() }))

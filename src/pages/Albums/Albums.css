@@ -1,4 +1,3 @@
-
 .filter-section{
     max-width: 60vw;
     height: inherit;
@@ -20,6 +19,25 @@
     -webkit-filter: invert(1);
 }
 
+.pagination {
+    width: 10vw;
+    padding-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 4vh;
+}
+
+.pagination img{
+    max-width: 2.5vh;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+.prev-page {
+    transform: rotate(180deg);
+}
+
 h1 {
     color: var(--secondary-bg-color);
     text-transform: capitalize;
@@ -30,7 +48,6 @@ h2 {
 .albums {
     padding-top: 2vh;
     gap: 4vh;
-    margin-bottom: 4vh;
 }
 
 .albums>div {

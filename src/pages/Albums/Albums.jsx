@@ -2,11 +2,27 @@ import "./Albums.css";
 import { dateSort } from "../../data/albums2023";
 import { AlbumGrid } from "../../components/AlbumGrid/AlbumGrid";
 import { Filter } from "../../components/Filter/Filter";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 export const Albums = () => {
     const [typeValue,setTypeValue] = useState("")
     const [genreValue,setGenreValue] = useState("")
     const [albumsSort, setAlbumsSort] = useState(true)
+    const [currentPage, setCurrentPage] = useState(0)
+
+    const albumsTot = dateSort.length;
+    const albumsPerPage = 10;
+
+    const paginationAlbums = () => {
+      return dateSort.slice(currentPage, currentPage + albumsPerPage)
+    }
+
+    const nextPage = () => {
+      setCurrentPage(currentPage + albumsPerPage)
+    }
+
+    const prevPage = () => {
+      setCurrentPage(currentPage - albumsPerPage)
+    }
 
     const onTypeSelected = (typeSelected) => {
         setTypeValue(typeSelected)
@@ -41,7 +57,7 @@ export const Albums = () => {
         <section className="albums">
           {albumsSort
             ? typeValue == "" && genreValue == ""
-              ? dateSort.map((album) => (
+              ? paginationAlbums().map((album) => (
                   <AlbumGrid album={album} key={album.id} />
                 ))
               : typeValue == "" || genreValue == ""
@@ -91,6 +107,28 @@ export const Albums = () => {
                 )
                 .map((album) => <AlbumGrid album={album} key={album.id} />)
                 .reverse()}
+        </section>
+        <section className="pagination">
+          {currentPage > 1 && typeValue == "" && genreValue == "" ? (
+            <img
+              onClick={prevPage}
+              src="/icons/images/arrows/triangular-arrow.png"
+              className="prev-page"
+            />
+          ) : (
+            ""
+          )}
+          {currentPage < (albumsTot - albumsPerPage) &&
+          (typeValue == "" &&
+          genreValue == "") ? (
+            <img
+              onClick={nextPage}
+              src="/icons/images/arrows/triangular-arrow.png"
+              className="next-page"
+            />
+          ) : (
+            ""
+          )}
         </section>
       </section>
     );

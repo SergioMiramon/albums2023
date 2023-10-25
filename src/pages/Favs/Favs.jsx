@@ -1,5 +1,5 @@
 import "./Favs.css"
-import { albumsTot, favAlbums } from "../../data/albums2023"
+import { favsTot, favAlbums } from "../../data/albums2023"
 import { AlbumGrid } from "../../components/AlbumGrid/AlbumGrid"
 import { NavLink } from "react-router-dom"
 
@@ -8,7 +8,7 @@ export const Favs = () => {
         <section className="favs-section">
           <section className="favs-header">
             <h1>Fav Albums</h1>
-            <h1 className="favs-count">{`(${albumsTot})`}</h1>
+            <h1 className="favs-count">{`(${favsTot})`}</h1>
           </section>
           <section className="favs">
           {favAlbums.map((album) => (
