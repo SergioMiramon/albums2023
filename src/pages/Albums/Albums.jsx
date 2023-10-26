@@ -1,5 +1,5 @@
 import "./Albums.css";
-import { dateSort } from "../../data/albums2023";
+import { albums, dateSort } from "../../data/albums2023";
 import { AlbumGrid } from "../../components/AlbumGrid/AlbumGrid";
 import { Filter } from "../../components/Filter/Filter";
 import { useEffect, useState } from "react";
@@ -44,7 +44,9 @@ export const Albums = () => {
             onGenreSelected={onGenreSelected}
           />
           <div className="reverse-filter">
-            {!albumsSort ? (
+            {typeValue == "" && genreValue == "" ? (
+              ""
+            ) : !albumsSort ? (
               <img
                 onClick={() => setAlbumsSort(!albumsSort)}
                 src="/icons/images/arrows/sort-ascending.png"
@@ -86,7 +88,7 @@ export const Albums = () => {
                   )
                   .map((album) => <AlbumGrid album={album} key={album.id} />)
             : typeValue == "" && genreValue == ""
-            ? dateSort
+            ? paginationAlbums()
                 .map((album) => <AlbumGrid album={album} key={album.id} />)
                 .reverse()
             : typeValue == "" || genreValue == ""
@@ -110,8 +112,7 @@ export const Albums = () => {
                   (album) =>
                     album.type == typeValue || album.genre == genreValue
                 )
-                .map((album) => <AlbumGrid album={album} key={album.id} />)
-                .reverse()}
+                .map((album) => <AlbumGrid album={album} key={album.id} />)}
         </section>
         <section className="pagination">
           {currentPage > 1 && typeValue == "" && genreValue == "" ? (
@@ -123,9 +124,9 @@ export const Albums = () => {
           ) : (
             ""
           )}
-          {currentPage < (albumsTot - albumsPerPage) &&
-          (typeValue == "" &&
-          genreValue == "") ? (
+          {currentPage < albumsTot - albumsPerPage &&
+          typeValue == "" &&
+          genreValue == "" ? (
             <img
               onClick={nextPage}
               src="/icons/images/arrows/triangular-arrow.png"

@@ -1723,6 +1723,51 @@ export const albums = [
     "favm": "",
     "favs": "",
     "hr": false
+  },
+  {
+    "title": "Jonny",
+    "artist": "The Drums",
+    "id": 125,
+    "releasedate": "10/13/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 16,
+    "duration": "51min 5s",
+    "genre": "indie",
+    "image": "/icons/images/calendar/jonny.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "ÁTTA",
+    "artist": "Sigur Rós",
+    "id": 126,
+    "releasedate": "06/16/2023",
+    "month": "june",
+    "type": "Album",
+    "songs": 10,
+    "duration": "56min 37s",
+    "genre": "pop",
+    "image": "/icons/images/calendar/atta.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Me lo dedico",
+    "artist": "Errecé",
+    "id": 127,
+    "releasedate": "06/22/2023",
+    "month": "june",
+    "type": "Album",
+    "songs": 10,
+    "duration": "30min 52s",
+    "genre": "pop",
+    "image": "/icons/images/calendar/me-lo-dedico.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
   }
   // {
   //   "title": "Heaven knows",
@@ -1743,10 +1788,8 @@ export const albums = [
 
   export const dateSort = albums
   .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
-  console.log(dateSort)
 
   export const albumsTot = dateSort.length;
-  console.log(albumsTot)
 
   // export const todayDate = Date.now()
   // export const today = new Date(todayDate)

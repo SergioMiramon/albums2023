@@ -13,13 +13,13 @@ export const Filter = ({onTypeSelected, onGenreSelected}) => {
 
     return (
             <div className="filters">
-                <select className="filter-type" onChange={onTypeValue}>
+                <select id="filter-type" onChange={onTypeValue}>
                         <option value="">Type</option>
                     {typeFilter.map((type) => (
                         <option value={`${type}`} key={type}>{`${type}`}</option>
                     ))}
                 </select>
-                <select className="filter-genre" onChange={onGenreValue}>
+                <select id="filter-genre" onChange={onGenreValue}>
                     <option value="">Genre</option>
                     {genreFilter.map((genre) => (
                         <option value={`${genre}`} key={genre}>{`${genre}`}</option>
