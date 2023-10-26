@@ -15,10 +15,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
           <Route path="/" element={<App />}>
-            <Route index element={<Slider />}/>
+            <Route index element={<Albums />}/>
             <Route path="/favs" element={<Favs />}/>
             <Route path="/favs/:title" element={<AlbumDetail />}/>
-            <Route path="/albums" element={<Albums />}/>
+            <Route path="/slider" element={<Slider />}/>
             <Route path="*" element={<NotFound />}/>
           </Route>
       </Routes>
