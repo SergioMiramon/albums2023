@@ -9,13 +9,13 @@ export const Header = ({headerImg, headerAlt}) => {
             <nav>
             <ul>
                 <li>
-                    <NavLink to="/albums" id="albumslink">Albums</NavLink>
+                    <NavLink to="/" id="albumslink">Albums</NavLink>
                 </li>
                 <li>
                     <NavLink to="/favs" id='favslink'>Favs</NavLink>
                 </li>
                 <li>
-                    <NavLink to="/" id='sliderlink'>Slider</NavLink>
+                    <NavLink to="/slider" id='sliderlink'>Slider</NavLink>
                 </li>
             </ul>
             </nav>
