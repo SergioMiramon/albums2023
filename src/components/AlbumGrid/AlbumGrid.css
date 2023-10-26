@@ -269,29 +269,3 @@ figure img {
         font-size: .6vh;
     }
 }
-
-/* @media (max-width: 300px) {
-    .info h4 {
-        font-size: .4vh;
-    }
-    
-    .title h2 {
-        font-size: 1vh;
-    }
-    
-    .title .favs-title::after{
-        font-size: .6vh;
-    }
-    
-    .details h3 {
-        font-size: .8vh;
-    }
-    
-    .details p {
-        font-size: .6vh;
-    }
-    
-    .details p.hr {
-        font-size: .6vh;
-    }
-} */

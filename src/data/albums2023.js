@@ -1769,35 +1769,12 @@ export const albums = [
     "favs": "",
     "hr": false
   }
-  // {
-  //   "title": "Heaven knows",
-  //   "artist": "PinkPantheress",
-  //   "id": 200,
-  //   "releasedate": "11/10/2023",
-  //   "month": "november",
-  //   "type": "Album",
-  //   "songs": "",
-  //   "duration": "",
-  //   "genre": "",
-  //   "image": "/icons/images/calendar/heaven-knows.jpg",
-  //   "favm": "",
-  //   "favs": "",
-  //   "hr": false
-  // }
 ]
 
   export const dateSort = albums
   .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
 
   export const albumsTot = dateSort.length;
-
-  // export const todayDate = Date.now()
-  // export const today = new Date(todayDate)
-  // export const actualDay = `${today.getMonth()}/${today.getDate()}/${today.getFullYear()}`
-  // console.log(actualDay)
-
-  // export const next = albums.map(album => album.releasedate > actualDay)
-  // console.log(next)
 
   const types = dateSort.map((data) => data.type).sort();
   export const typeFilter = [...new Set(types)];
