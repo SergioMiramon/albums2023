@@ -1670,7 +1670,7 @@ export const albums = [
     "id": 121,
     "releasedate": "10/24/2023",
     "month": "october",
-    "type": "Album",
+    "type": "EP",
     "songs": 10,
     "duration": "16min 3s",
     "genre": "rock",
@@ -1755,16 +1755,91 @@ export const albums = [
     "hr": false
   },
   {
-    "title": "Me lo dedico",
-    "artist": "Errecé",
+    "title": "Que Entren En Mi Cabeza",
+    "artist": "Mercedes Cañas",
     "id": 127,
-    "releasedate": "06/22/2023",
-    "month": "june",
+    "releasedate": "10/27/2023",
+    "month": "october",
     "type": "Album",
-    "songs": 10,
-    "duration": "30min 52s",
+    "songs": 11,
+    "duration": "31min 51s",
     "genre": "pop",
-    "image": "/icons/images/calendar/me-lo-dedico.jpg",
+    "image": "/icons/images/calendar/que-entren-en-mi-cabeza.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Larger Than Life",
+    "artist": "Brent Faiyaz",
+    "id": 128,
+    "releasedate": "10/27/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 14,
+    "duration": "36min 20s",
+    "genre": "r&b",
+    "image": "/icons/images/calendar/larger-than-life.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Real Cultural Shit",
+    "artist": "Channel Tres",
+    "id": 129,
+    "releasedate": "02/24/2023",
+    "month": "february",
+    "type": "EP",
+    "songs": 5,
+    "duration": "19min 50s",
+    "genre": "electronic",
+    "image": "/icons/images/calendar/real-cultural-shit.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Delivery",
+    "artist": "Urbanse",
+    "id": 130,
+    "releasedate": "10/26/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 8,
+    "duration": "22min 35s",
+    "genre": "rap",
+    "image": "/icons/images/calendar/delivery.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Medellín Jazz Panorama",
+    "artist": "Vic Deal, Bopscat & Hakim Al-Khaliq",
+    "id": 131,
+    "releasedate": "08/25/2023",
+    "month": "august",
+    "type": "Album",
+    "songs": 12,
+    "duration": "20min 58s",
+    "genre": "instrumental",
+    "image": "/icons/images/calendar/medellin-jazz-panorama.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Honey",
+    "artist": "Samia",
+    "id": 132,
+    "releasedate": "01/27/2023",
+    "month": "january",
+    "type": "Album",
+    "songs": 11,
+    "duration": "40min 6s",
+    "genre": "indie",
+    "image": "/icons/images/calendar/honey.jpg",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1773,8 +1848,10 @@ export const albums = [
 
   export const dateSort = albums
   .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
+  console.log(dateSort)
 
   export const albumsTot = dateSort.length;
+  console.log(albumsTot)
 
   const types = dateSort.map((data) => data.type).sort();
   export const typeFilter = [...new Set(types)];
