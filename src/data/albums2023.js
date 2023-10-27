@@ -1843,6 +1843,21 @@ export const albums = [
     "favm": "",
     "favs": "",
     "hr": false
+  },
+  {
+    "title": "Good Riddance",
+    "artist": "Gracie Abrams",
+    "id": 133,
+    "releasedate": "02/24/2023",
+    "month": "february",
+    "type": "Album",
+    "songs": 12,
+    "duration": "52min 30s",
+    "genre": "pop",
+    "image": "/icons/images/calendar/good-riddance.jpg",
+    "favm": "",
+    "favs": "",
+    "hr": false
   }
 ]
 
