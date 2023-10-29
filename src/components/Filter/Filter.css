@@ -24,6 +24,5 @@
 @media (max-width: 770px) {
     .filters select{
         max-height: 3vh;
-        max-width: 11vw;
     }
 }
