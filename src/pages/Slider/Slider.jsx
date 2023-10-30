@@ -15,7 +15,7 @@ export const Slider = () => {
       <div className={albumSlider ? "modal-slider show" : "modal-slider"}>
         <img src={albumSrc} />
         <i
-          className="arrows icon-arrow-left2"
+          className="arrows"
           onClick={() => setAlbumSlider(false)}
         ></i>
       </div>

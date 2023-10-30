@@ -14,7 +14,7 @@ export const AlbumGrid = ({album}) => {
         <>
         <div className={albumModal ? "modal show" : "modal"}>
             <img src={albumSrc}/>
-            <i className="arrows icon-arrow-left2" onClick={() => setAlbumModal(false)}></i>
+            <i className="arrows" onClick={() => setAlbumModal(false)}></i>
         </div>
         <figure>
             <img src={album.image} alt={album.title} className="album-cover" onClick={() => getImg(album.image)}/>
