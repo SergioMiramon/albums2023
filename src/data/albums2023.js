@@ -10,6 +10,7 @@ export const albums = [
     "duration": "26min 4s",
     "genre": "indie",
     "image": "/icons/images/calendar/pensando-mucho-y-mal.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -25,6 +26,7 @@ export const albums = [
     "duration": "1h 1min",
     "genre": "electronic",
     "image": "/icons/images/calendar/12.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -40,6 +42,7 @@ export const albums = [
     "duration": "31min 44s",
     "genre": "rap",
     "image": "/icons/images/calendar/bars.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -55,6 +58,7 @@ export const albums = [
     "duration": "32min 31s",
     "genre": "rap",
     "image": "/icons/images/calendar/losing-my-religion.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -70,6 +74,7 @@ export const albums = [
     "duration": "22min 44s",
     "genre": "rap",
     "image": "/icons/images/calendar/blue-magic.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -85,6 +90,7 @@ export const albums = [
     "duration": "37min 29s",
     "genre": "indie",
     "image": "/icons/images/calendar/cracker-island.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -100,6 +106,7 @@ export const albums = [
     "duration": "57min 16s",
     "genre": "rock",
     "image": "/icons/images/calendar/lets-start-here.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -115,6 +122,7 @@ export const albums = [
     "duration": "28min 52s",
     "genre": "pop",
     "image": "/icons/images/calendar/fomo.jpg",
+    "link": "https://open.spotify.com/intl-es/album/2wj8AHax9qryX210NBwu5Q?si=zKOMm0mtQ3mUPHoYEgtnow",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -130,6 +138,7 @@ export const albums = [
     "duration": "40min 28s",
     "genre": "rap",
     "image": "/icons/images/calendar/planet-terror-remixes.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -145,6 +154,7 @@ export const albums = [
     "duration": "33min 37s",
     "genre": "hyperpop",
     "image": "/icons/images/calendar/cosas-de-brujas.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -160,6 +170,7 @@ export const albums = [
     "duration": "34 min 23s",
     "genre": "rap",
     "image": "/icons/images/calendar/brazzy-dayz.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -175,6 +186,7 @@ export const albums = [
     "duration": "1h 2min",
     "genre": "r&b",
     "image": "/icons/images/calendar/raven.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -190,6 +202,7 @@ export const albums = [
     "duration": "36min 16s",
     "genre": "rock",
     "image": "/icons/images/calendar/this-is-why.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -205,6 +218,7 @@ export const albums = [
     "duration": "45min 24s",
     "genre": "pop",
     "image": "/icons/images/calendar/desire.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -220,6 +234,7 @@ export const albums = [
     "duration": "23min 26s",
     "genre": "rap",
     "image": "/icons/images/calendar/glow.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -235,6 +250,7 @@ export const albums = [
     "duration": "38min 4s",
     "genre": "indie",
     "image": "/icons/images/calendar/bcn747.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -250,6 +266,7 @@ export const albums = [
     "duration": "11min 19s",
     "genre": "pop",
     "image": "/icons/images/calendar/diez-vueltas-al-sol.jpg",
+    "link": "",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -265,6 +282,7 @@ export const albums = [
     "duration": "1h 2min",
     "genre": "country",
     "image": "/icons/images/calendar/workin-on-a-world.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -280,6 +298,7 @@ export const albums = [
     "duration": "35min 41s",
     "genre": "rap",
     "image": "/icons/images/calendar/contra-todo-pronostico.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -295,6 +314,7 @@ export const albums = [
     "duration": "44min 52s",
     "genre": "electronic",
     "image": "/icons/images/calendar/jungle.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -310,6 +330,7 @@ export const albums = [
     "duration": "15min 46s",
     "genre": "rap",
     "image": "/icons/images/calendar/mpfctx.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -325,6 +346,7 @@ export const albums = [
     "duration": "26min 53s",
     "genre": "hyperpop",
     "image": "/icons/images/calendar/10000gecs.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -340,6 +362,7 @@ export const albums = [
     "duration": "16min 58s",
     "genre": "r&b",
     "image": "/icons/images/calendar/swarm.jpg",
+    "link": "",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -355,6 +378,7 @@ export const albums = [
     "duration": "37min 11s",
     "genre": "rap",
     "image": "/icons/images/calendar/ways-of-knowing.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -370,6 +394,7 @@ export const albums = [
     "duration": "1h 17min",
     "genre": "indie",
     "image": "/icons/images/calendar/dyktttuob.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -385,6 +410,7 @@ export const albums = [
     "duration": "36min 19s",
     "genre": "rap",
     "image": "/icons/images/calendar/scaring-the-hoes.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -400,6 +426,7 @@ export const albums = [
     "duration": "42min 18s",
     "genre": "rock",
     "image": "/icons/images/calendar/the-record.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -415,6 +442,7 @@ export const albums = [
     "duration": "16min 55s",
     "genre": "pop",
     "image": "/icons/images/calendar/novia-del-año.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -430,6 +458,7 @@ export const albums = [
     "duration": "23min 37s",
     "genre": "rap",
     "image": "/icons/images/calendar/eight-ballers.jpg",
+    "link": "",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -445,6 +474,7 @@ export const albums = [
     "duration": "47min 45s",
     "genre": "rap",
     "image": "/icons/images/calendar/sremm-4-life.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -460,6 +490,7 @@ export const albums = [
     "duration": "31min 16s",
     "genre": "rap",
     "image": "/icons/images/calendar/glorious-game.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -475,6 +506,7 @@ export const albums = [
     "duration": "52min 6s",
     "genre": "r&b",
     "image": "/icons/images/calendar/wdteguptl.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -490,6 +522,7 @@ export const albums = [
     "duration": "24min 55s",
     "genre": "jazz",
     "image": "/icons/images/calendar/enigmatic-society.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -505,6 +538,7 @@ export const albums = [
     "duration": "19min 22s",
     "genre": "rap",
     "image": "/icons/images/calendar/33.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -520,6 +554,7 @@ export const albums = [
     "duration": "22min 15s",
     "genre": "rap",
     "image": "/icons/images/calendar/bang-bang.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -535,6 +570,7 @@ export const albums = [
     "duration": "10min 54s",
     "genre": "drill",
     "image": "/icons/images/calendar/trickstar.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -550,6 +586,7 @@ export const albums = [
     "duration": "28min 52s",
     "genre": "r&b",
     "image": "/icons/images/calendar/ends-and-begins.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -565,6 +602,7 @@ export const albums = [
     "duration": "40min 26s",
     "genre": "pop",
     "image": "/icons/images/calendar/that-feels-good.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": true
@@ -580,6 +618,7 @@ export const albums = [
     "duration": "36min 56s",
     "genre": "rap",
     "image": "/icons/images/calendar/metropoli.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -595,6 +634,7 @@ export const albums = [
     "duration": "32min 21s",
     "genre": "rap",
     "image": "/icons/images/calendar/stupido-amore.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -610,6 +650,7 @@ export const albums = [
     "duration": "49min 25s",
     "genre": "rap",
     "image": "/icons/images/calendar/wont-he-do-it.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -625,6 +666,7 @@ export const albums = [
     "duration": "29min 52s",
     "genre": "rap",
     "image": "/icons/images/calendar/el-tobogan.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -640,6 +682,7 @@ export const albums = [
     "duration": "13min 25s",
     "genre": "indie",
     "image": "/icons/images/calendar/alto-cielo.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -655,6 +698,7 @@ export const albums = [
     "duration": "38min 29s",
     "genre": "pop",
     "image": "/icons/images/calendar/oraculo.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -670,6 +714,7 @@ export const albums = [
     "duration": "18min 46s",
     "genre": "rap",
     "image": "/icons/images/calendar/doctrina.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -685,6 +730,7 @@ export const albums = [
     "duration": "1h 2min",
     "genre": "rap",
     "image": "/icons/images/calendar/paraiso.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -700,6 +746,7 @@ export const albums = [
     "duration": "9min 47s",
     "genre": "rap",
     "image": "/icons/images/calendar/en-una-nube.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": true
@@ -715,6 +762,7 @@ export const albums = [
     "duration": "12min 42s",
     "genre": "rap",
     "image": "/icons/images/calendar/4-temas.jpg",
+    "link": "",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -730,6 +778,7 @@ export const albums = [
     "duration": "1h 16min",
     "genre": "trap",
     "image": "/icons/images/calendar/me-muevo-con-dios.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -745,6 +794,7 @@ export const albums = [
     "duration": "22min 31s",
     "genre": "rap",
     "image": "/icons/images/calendar/16-millas.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -760,6 +810,7 @@ export const albums = [
     "duration": "41min 19s",
     "genre": "rap",
     "image": "/icons/images/calendar/redrum.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -775,6 +826,7 @@ export const albums = [
     "duration": "36min 16s",
     "genre": "pop",
     "image": "/icons/images/calendar/amores-naufragos.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -790,6 +842,7 @@ export const albums = [
     "duration": "29min 6s",
     "genre": "rap",
     "image": "/icons/images/calendar/instinto-animal-vol2.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -805,6 +858,7 @@ export const albums = [
     "duration": "48min 14s",
     "genre": "rock",
     "image": "/icons/images/calendar/but-here-we-are.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -820,6 +874,7 @@ export const albums = [
     "duration": "16min 23s",
     "genre": "rap",
     "image": "/icons/images/calendar/split-decision.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -835,6 +890,7 @@ export const albums = [
     "duration": "30min 29s",
     "genre": "rap",
     "image": "/icons/images/calendar/6.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -850,6 +906,7 @@ export const albums = [
     "duration": "39min 40s",
     "genre": "pop",
     "image": "/icons/images/calendar/fountain-baby.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -865,6 +922,7 @@ export const albums = [
     "duration": "40min 15s",
     "genre": "r&b",
     "image": "/icons/images/calendar/when-i-hear-your-name.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -880,6 +938,7 @@ export const albums = [
     "duration": "25min 31s",
     "genre": "pop",
     "image": "/icons/images/calendar/nada-que-aportar.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -895,6 +954,7 @@ export const albums = [
     "duration": "20min 13s",
     "genre": "rap",
     "image": "/icons/images/calendar/el-pelusa-jimenez.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -910,6 +970,7 @@ export const albums = [
     "duration": "17min 24s",
     "genre": "indie",
     "image": "/icons/images/calendar/artilleria.jpg",
+    "link": "",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -925,6 +986,7 @@ export const albums = [
     "duration": "1h 1min",
     "genre": "rap",
     "image": "/icons/images/calendar/panico.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -940,6 +1002,7 @@ export const albums = [
     "duration": "27min 23s",
     "genre": "r&b",
     "image": "/icons/images/calendar/its-not-you-its-me.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -955,6 +1018,7 @@ export const albums = [
     "duration": "48min 40s",
     "genre": "heavy metal",
     "image": "/icons/images/calendar/petrodragonic.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -970,6 +1034,7 @@ export const albums = [
     "duration": "20min 25s",
     "genre": "pop",
     "image": "/icons/images/calendar/claridad.jpg",
+    "link": "",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -985,6 +1050,7 @@ export const albums = [
     "duration": "31min 22s",
     "genre": "rap",
     "image": "/icons/images/calendar/time-over-money.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1000,6 +1066,7 @@ export const albums = [
     "duration": "14min 3s",
     "genre": "rap",
     "image": "/icons/images/calendar/your-momma.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1015,6 +1082,7 @@ export const albums = [
     "duration": "41min 1s",
     "genre": "pop",
     "image": "/icons/images/calendar/po2054az-vol1.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -1030,6 +1098,7 @@ export const albums = [
     "duration": "40min 32s",
     "genre": "rap",
     "image": "/icons/images/calendar/hay-fantasmas-todavia.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1045,6 +1114,7 @@ export const albums = [
     "duration": "41min 23s",
     "genre": "indie",
     "image": "/icons/images/calendar/my-back-was-a-bridge.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1060,6 +1130,7 @@ export const albums = [
     "duration": "27min 21s",
     "genre": "r&b",
     "image": "/icons/images/calendar/the-open-range.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1075,6 +1146,7 @@ export const albums = [
     "duration": "1h 3min",
     "genre": "rap",
     "image": "/icons/images/calendar/baby.jpg",
+    "link": "",
     "favm": "⭐",
     "favs": "⭐",
     "hr": false
@@ -1090,6 +1162,7 @@ export const albums = [
     "duration": "27min 26s",
     "genre": "rap",
     "image": "/icons/images/calendar/ss23.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1105,6 +1178,7 @@ export const albums = [
     "duration": "6min 38s",
     "genre": "rap",
     "image": "/icons/images/calendar/something.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1120,6 +1194,7 @@ export const albums = [
     "duration": "12min 13s",
     "genre": "k-pop",
     "image": "/icons/images/calendar/get-up.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1135,6 +1210,7 @@ export const albums = [
     "duration": "9min 27s",
     "genre": "electronic",
     "image": "/icons/images/calendar/new-jazz.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1150,6 +1226,7 @@ export const albums = [
     "duration": "43min 35s",
     "genre": "pop",
     "image": "/icons/images/calendar/the-loveliest-time.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": true
@@ -1165,6 +1242,7 @@ export const albums = [
     "duration": "1h 13min",
     "genre": "trap",
     "image": "/icons/images/calendar/utopia.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1180,6 +1258,7 @@ export const albums = [
     "duration": "18min 59s",
     "genre": "hyperpop",
     "image": "/icons/images/calendar/metanoia.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1195,6 +1274,7 @@ export const albums = [
     "duration": "44min 40s",
     "genre": "dance",
     "image": "/icons/images/calendar/volcano.jpg",
+    "link": "",
     "favm": "⭐",
     "favs": "",
     "hr": true
@@ -1210,6 +1290,7 @@ export const albums = [
     "duration": "31min 54s",
     "genre": "rap",
     "image": "/icons/images/calendar/sundial.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": true
@@ -1225,6 +1306,7 @@ export const albums = [
     "duration": "38min 56s",
     "genre": "rap",
     "image": "/icons/images/calendar/hotel1105.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1240,6 +1322,7 @@ export const albums = [
     "duration": "48min 10s",
     "genre": "reggaeton",
     "image": "/icons/images/calendar/estrella.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1255,6 +1338,7 @@ export const albums = [
     "duration": "33min 27s",
     "genre": "rap",
     "image": "/icons/images/calendar/el-lamento-de-los-niños-pobres.jpg",
+    "link": "",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -1270,6 +1354,7 @@ export const albums = [
     "duration": "53min 33s",
     "genre": "r&b",
     "image": "/icons/images/calendar/i-came-home-late.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1285,6 +1370,7 @@ export const albums = [
     "duration": "37min 17s",
     "genre": "rap",
     "image": "/icons/images/calendar/perro-verde.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1300,6 +1386,7 @@ export const albums = [
     "duration": "26min 27s",
     "genre": "rap",
     "image": "/icons/images/calendar/camina-conmigo.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1315,6 +1402,7 @@ export const albums = [
     "duration": "42min 44s",
     "genre": "experimental",
     "image": "/icons/images/calendar/playing-robots-into-heaven.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -1330,6 +1418,7 @@ export const albums = [
     "duration": "41min 41s",
     "genre": "pop",
     "image": "/icons/images/calendar/papel-de-burbujas.jpg",
+    "link": "",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -1345,6 +1434,7 @@ export const albums = [
     "duration": "45min 50s",
     "genre": "rap",
     "image": "/icons/images/calendar/magic3.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1360,6 +1450,7 @@ export const albums = [
     "duration": "1h 24min",
     "genre": "r&b",
     "image": "/icons/images/calendar/the-love-album.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -1375,6 +1466,7 @@ export const albums = [
     "duration": "18min 44s",
     "genre": "pop",
     "image": "/icons/images/calendar/summer-series23.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -1390,6 +1482,7 @@ export const albums = [
     "duration": "39min 32s",
     "genre": "rap",
     "image": "/icons/images/calendar/safary.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1405,6 +1498,7 @@ export const albums = [
     "duration": "20min 8s",
     "genre": "rock",
     "image": "/icons/images/calendar/speak-to-me-breathe.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1420,6 +1514,7 @@ export const albums = [
     "duration": "39min 24s",
     "genre": "pop",
     "image": "/icons/images/calendar/alpha.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": true
@@ -1435,6 +1530,7 @@ export const albums = [
     "duration": "35min 8s",
     "genre": "rap",
     "image": "/icons/images/calendar/sunday-truce.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1450,6 +1546,7 @@ export const albums = [
     "duration": "43min 48s",
     "genre": "r&b",
     "image": "/icons/images/calendar/falling-or-flying.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -1465,6 +1562,7 @@ export const albums = [
     "duration": "1h 15min",
     "genre": "rap",
     "image": "/icons/images/calendar/and-then-you-pray-for-me.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": true
@@ -1480,6 +1578,7 @@ export const albums = [
     "duration": "1h 24min",
     "genre": "rap",
     "image": "/icons/images/calendar/for-all-the-dogs.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1495,6 +1594,7 @@ export const albums = [
     "duration": "15min 13s",
     "genre": "rap",
     "image": "/icons/images/calendar/cosas-que-brillan.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": false
@@ -1510,6 +1610,7 @@ export const albums = [
     "duration": "47min 54s",
     "genre": "rock",
     "image": "/icons/images/calendar/the-dark-side-of-the-moon-redux.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1525,6 +1626,7 @@ export const albums = [
     "duration": "30min 35s",
     "genre": "pop",
     "image": "/icons/images/calendar/ve-a-terapia.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1540,6 +1642,7 @@ export const albums = [
     "duration": "33min 43s",
     "genre": "rap",
     "image": "/icons/images/calendar/kaytramine.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1555,6 +1658,7 @@ export const albums = [
     "duration": "1h 21min",
     "genre": "reggaeton",
     "image": "/icons/images/calendar/nadie-sabe.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1570,6 +1674,7 @@ export const albums = [
     "duration": "41min 45s",
     "genre": "r&b",
     "image": "/icons/images/calendar/obsidian.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": false
@@ -1585,6 +1690,7 @@ export const albums = [
     "duration": "41min",
     "genre": "r&b",
     "image": "/icons/images/calendar/lahai.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1600,6 +1706,7 @@ export const albums = [
     "duration": "15min 1s",
     "genre": "rap",
     "image": "/icons/images/calendar/jose.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1615,6 +1722,7 @@ export const albums = [
     "duration": "28min 8s",
     "genre": "r&b",
     "image": "/icons/images/calendar/clear-2.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1630,6 +1738,7 @@ export const albums = [
     "duration": "36min 51s",
     "genre": "r&b",
     "image": "/icons/images/calendar/supernova.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1645,6 +1754,7 @@ export const albums = [
     "duration": "41min 21s",
     "genre": "hyperpop",
     "image": "/icons/images/calendar/fanfare.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1660,6 +1770,7 @@ export const albums = [
     "duration": "43min 45s",
     "genre": "pop",
     "image": "/icons/images/calendar/something-to-give-each-other.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1675,6 +1786,7 @@ export const albums = [
     "duration": "16min 3s",
     "genre": "rock",
     "image": "/icons/images/calendar/trincheira-n02.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1690,6 +1802,7 @@ export const albums = [
     "duration": "40min 37s",
     "genre": "pop",
     "image": "/icons/images/calendar/perfect-picture.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1705,6 +1818,7 @@ export const albums = [
     "duration": "45min 11s",
     "genre": "r&b",
     "image": "/icons/images/calendar/water-made-us.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1720,6 +1834,7 @@ export const albums = [
     "duration": "42min 4s",
     "genre": "indie",
     "image": "/icons/images/calendar/javelin.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1735,6 +1850,7 @@ export const albums = [
     "duration": "51min 5s",
     "genre": "indie",
     "image": "/icons/images/calendar/jonny.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1750,6 +1866,7 @@ export const albums = [
     "duration": "56min 37s",
     "genre": "pop",
     "image": "/icons/images/calendar/atta.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1765,6 +1882,7 @@ export const albums = [
     "duration": "31min 51s",
     "genre": "pop",
     "image": "/icons/images/calendar/que-entren-en-mi-cabeza.jpg",
+    "link": "",
     "favm": "",
     "favs": "⭐",
     "hr": false
@@ -1780,6 +1898,7 @@ export const albums = [
     "duration": "36min 20s",
     "genre": "r&b",
     "image": "/icons/images/calendar/larger-than-life.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1795,6 +1914,7 @@ export const albums = [
     "duration": "19min 50s",
     "genre": "electronic",
     "image": "/icons/images/calendar/real-cultural-shit.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1810,6 +1930,7 @@ export const albums = [
     "duration": "22min 35s",
     "genre": "rap",
     "image": "/icons/images/calendar/delivery.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1825,6 +1946,7 @@ export const albums = [
     "duration": "20min 58s",
     "genre": "instrumental",
     "image": "/icons/images/calendar/medellin-jazz-panorama.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1840,6 +1962,7 @@ export const albums = [
     "duration": "40min 6s",
     "genre": "indie",
     "image": "/icons/images/calendar/honey.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1855,6 +1978,7 @@ export const albums = [
     "duration": "52min 30s",
     "genre": "pop",
     "image": "/icons/images/calendar/good-riddance.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1870,6 +1994,7 @@ export const albums = [
     "duration": "13min 16s",
     "genre": "rap",
     "image": "/icons/images/calendar/atemporal.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1885,6 +2010,7 @@ export const albums = [
     "duration": "46min 32s",
     "genre": "j-pop",
     "image": "/icons/images/calendar/kimochy-season.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1900,6 +2026,7 @@ export const albums = [
     "duration": "29min 31s",
     "genre": "j-pop",
     "image": "/icons/images/calendar/the-book-3.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1915,6 +2042,7 @@ export const albums = [
     "duration": "36min 6s",
     "genre": "flamenco",
     "image": "/icons/images/calendar/ultrabelleza.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1930,6 +2058,7 @@ export const albums = [
     "duration": "44min 47s",
     "genre": "pop",
     "image": "/icons/images/calendar/silence-between-songs.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1945,6 +2074,7 @@ export const albums = [
     "duration": "18min 49s",
     "genre": "reggaeton",
     "image": "/icons/images/calendar/stem-vius.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1960,6 +2090,7 @@ export const albums = [
     "duration": "14min 24s",
     "genre": "pop",
     "image": "/icons/images/calendar/en-que-pienso-cuando-lloro.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1975,6 +2106,7 @@ export const albums = [
     "duration": "45min 5s",
     "genre": "indie",
     "image": "/icons/images/calendar/in-the-end-it-always-does.jpg",
+    "link": "",
     "favm": "",
     "favs": "",
     "hr": false
@@ -1983,10 +2115,8 @@ export const albums = [
 
   export const dateSort = albums
   .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
-  console.log(dateSort)
 
   export const albumsTot = dateSort.length;
-  console.log(albumsTot)
 
   const types = dateSort.map((data) => data.type).sort();
   export const typeFilter = [...new Set(types)];

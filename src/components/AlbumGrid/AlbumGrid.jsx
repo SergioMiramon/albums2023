@@ -11,26 +11,42 @@ export const AlbumGrid = ({album}) => {
     }
 
     return (
-        <>
+      <>
         <div className={albumModal ? "modal show" : "modal"}>
-            <img src={albumSrc}/>
-            <i className="arrows" onClick={() => setAlbumModal(false)}></i>
+          <img src={albumSrc} />
+          <i className="arrows" onClick={() => setAlbumModal(false)}></i>
         </div>
         <figure>
-            <img src={album.image} alt={album.title} className="album-cover" onClick={() => getImg(album.image)}/>
-                <div className="info">
-                    <h4>{album.type}</h4>
-                    <div className="title">
-                        {album.favs === "⭐"
-                        ? <h2 className="favs-title">{album.title}</h2>
-                        : <h2>{album.title}</h2>}
-                    </div>
-                    <div className="details">
-                        <h3>{album.artist}</h3>
-                        <p>{album.releasedate} · {album.songs} songs · {album.duration}</p>
-                    </div>
-                </div>
+          <img
+            src={album.image}
+            alt={album.title}
+            className="album-cover"
+            onClick={() => getImg(album.image)}
+          />
+          {album.favs === "⭐" ? (
+            <a className="link" href={album.link}>
+              <img src="/icons/images/link.png" alt={`${album.title}-link`}/>
+            </a>
+          ) : (
+            ""
+          )}
+          <div className="info">
+            <h4>{album.type}</h4>
+            <div className="title">
+              {album.favs === "⭐" ? (
+                <h2 className="favs-title">{album.title}</h2>
+              ) : (
+                <h2>{album.title}</h2>
+              )}
+            </div>
+            <div className="details">
+              <h3>{album.artist}</h3>
+              <p>
+                {album.releasedate} · {album.songs} songs · {album.duration}
+              </p>
+            </div>
+          </div>
         </figure>
-        </>
-    )
+      </>
+    );
 }

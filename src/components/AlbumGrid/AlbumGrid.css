@@ -95,6 +95,25 @@ figure img {
     border-top-left-radius: .5vh;
 }
 
+.link{
+    position: absolute;
+    right: 0;
+    display: flex;
+    padding: .4vh;
+}
+
+.link img{
+    display: none;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+figure:hover .link img{
+    width: 1.2vw;
+    height: 1.2vw;
+    display: block;
+}
+
 .info {
     position: absolute;
     bottom: 0;
@@ -170,6 +189,11 @@ figure img {
 }
 
 @media (max-width: 1200px) {
+    figure:hover .link img{
+        width: 1.4vw;
+        height: 1.4vw;
+    }
+
     .info h4 {
         font-size: 1.2vh;
     }
@@ -192,6 +216,11 @@ figure img {
 }
 
 @media (max-width: 1050px) {
+    figure:hover .link img{
+        width: 1.8vw;
+        height: 1.8vw;
+    }
+
     .info h4 {
         font-size: 1vh;
     }
@@ -214,6 +243,11 @@ figure img {
 }
 
 @media (max-width: 770px) {
+    figure:hover .link img{
+        width: 2vw;
+        height: 2vw;
+    }
+
     .info h4 {
         font-size: .8vh;
     }
@@ -236,6 +270,11 @@ figure img {
 }
 
 @media (max-width: 520px) {
+    figure:hover .link img{
+        width: 2.4vw;
+        height: 2.4vw;
+    }
+
     .info h4 {
         font-size: .8vh;
     }
@@ -258,6 +297,11 @@ figure img {
 }
 
 @media (max-width: 320px) {
+    figure:hover .link img{
+        width: 2.8vw;
+        height: 2.8vw;
+    }
+
     .info h4 {
         font-size: .7vh;
     }
