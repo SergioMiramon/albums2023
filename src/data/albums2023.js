@@ -2110,6 +2110,21 @@ export const albums = [
     "favm": "",
     "favs": "",
     "hr": false
+  },
+  {
+    title: 'PARANOÏA, ANGELS, TRUE LOVE',
+    artist: 'Christine and the Queens',
+    id: 142,
+    releasedate: '06/09/2023',
+    month: 'june',
+    type: 'Album',
+    songs: 20,
+    duration: '1h 36min',
+    genre: 'pop',
+    image: '/icons/images/calendar/paranoia-angels-true-love.jpg',
+    link: '',
+    favs: '',
+    hr: false,
   }
 ]
 
