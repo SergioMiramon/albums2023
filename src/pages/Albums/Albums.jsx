@@ -10,7 +10,7 @@ export const Albums = () => {
   const [currentPage, setCurrentPage] = useState(0);
 
   const albumsTot = dateSort.length;
-  const albumsPerPage = 7;
+  const albumsPerPage = 8;
 
   const paginationAlbums = () => {
     return dateSort.slice(currentPage, currentPage + albumsPerPage);
