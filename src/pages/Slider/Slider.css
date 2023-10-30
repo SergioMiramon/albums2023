@@ -1,11 +1,11 @@
-.slider-section{
-    position: fixed;
-    width: 100vw;
-    height: calc(100vh - 8vh);
-    display: flex;
-    flex-direction: row;
-    animation: sliderScroll 320s linear infinite;
-    -webkit-animation: sliderScroll 320s linear infinite;
+.slider-section {
+  position: fixed;
+  width: 100vw;
+  height: calc(100vh - 8vh);
+  display: flex;
+  flex-direction: row;
+  animation: sliderScroll 320s linear infinite;
+  -webkit-animation: sliderScroll 320s linear infinite;
 }
 
 @keyframes sliderScroll {
@@ -20,7 +20,7 @@
   }
 }
 
-.modal-slider{
+.modal-slider {
   position: fixed;
   left: 0;
   top: 0;
@@ -47,7 +47,7 @@
   -o-transition: opacity 0.5s ease;
 }
 
-.modal-slider.show{
+.modal-slider.show {
   visibility: visible;
   opacity: 1;
   transform: scale(1);
@@ -57,7 +57,7 @@
   -o-transform: scale(1);
 }
 
-.modal-slider.show i{
+.modal-slider.show i {
   position: absolute;
   background-color: transparent;
   color: transparent;
@@ -68,7 +68,7 @@
   align-items: center;
 }
 
-.modal-slider.show img{
+.modal-slider.show img {
   position: absolute;
   background-color: transparent;
   color: transparent;
@@ -78,8 +78,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 8px;
-  animation: scale .6s linear;
-  -webkit-animation: scale .6s linear;
+  animation: scale 0.6s linear;
+  -webkit-animation: scale 0.6s linear;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
@@ -88,7 +88,7 @@
 
 @keyframes scale {
   0% {
-    opacity: .9;
+    opacity: 0.9;
     margin-top: 10%;
     scale: 60%;
   }
@@ -100,14 +100,14 @@
 }
 
 .slider-section div {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  object-fit: cover;
 }
 
-.slider-section div a{
+.slider-section div a {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -116,12 +116,12 @@
   object-fit: cover;
 }
 
-.slider-section img{
-    width: 10vw;
-    height: 100vh;
-    object-fit: cover;
+.slider-section img {
+  width: 10vw;
+  height: 100vh;
+  object-fit: cover;
 }
-.slider-section p{
+.slider-section p {
   position: absolute;
   font-size: 3vh;
   writing-mode: vertical-lr;
@@ -132,16 +132,15 @@
   -o-transform: rotate(180deg);
 }
 
-
 @media (max-width: 1000px) {
-  .modal-slider.show img{
+  .modal-slider.show img {
     width: 80vw;
     height: 80vw;
   }
 }
 
 @media (max-width: 770px) {
-  .slider-section{
+  .slider-section {
     position: fixed;
     top: 0;
   }

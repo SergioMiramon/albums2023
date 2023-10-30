@@ -1,246 +1,245 @@
-.album-detail{
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    gap: 1.5vh;
+.album-detail {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  gap: 1.5vh;
 }
 
-.album-detail>img {
-    position: relative;
-    height: 30vw;
-    width: 30vw;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+.album-detail > img {
+  position: relative;
+  height: 30vw;
+  width: 30vw;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
-.album-detail>img:hover{
-    transform: scale(1.01);
-    -webkit-transform: scale(1.01);
-    -moz-transform: scale(1.01);
-    -ms-transform: scale(1.01);
-    -o-transform: scale(1.01);
+.album-detail > img:hover {
+  transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
 }
 
 .album-detail .info-detail {
-    position: relative;
-    height: auto;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 .album-detail .info-detail h4 {
-    font-size: 1.6vh;
+  font-size: 1.6vh;
 }
 
-.album-detail .title-detail{
-    display: flex;
-    flex-direction: row;
+.album-detail .title-detail {
+  display: flex;
+  flex-direction: row;
 }
 
 .album-detail .title-detail h2 {
-    font-size: 3.5vh;
-    word-wrap: break-word;
-    color: var(--primary-bg-color);
-    margin-bottom: 0;
+  font-size: 3.5vh;
+  word-wrap: break-word;
+  color: var(--primary-bg-color);
+  margin-bottom: 0;
 }
 
-.album-detail .title-detail .favs-title::after{
-    content: "⭐";
-    font-size: 1.8vh;
-    position: absolute;
+.album-detail .title-detail .favs-title::after {
+  content: '⭐';
+  font-size: 1.8vh;
+  position: absolute;
 }
 
 .album-detail .details-detail {
-    position: relative;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .album-detail .details-detail h3 {
-    font-size: 2vh;
+  font-size: 2vh;
 }
 
 .album-detail .details-detail p {
-    font-size: 1.8vh;
+  font-size: 1.8vh;
 }
 
 .album-detail .details-detail p.hr {
-    font-size: 1.6vh;
+  font-size: 1.6vh;
 }
 
-
 @media (max-width: 1660px) {
-    .album-detail>img {
-        height: 30vw;
-        width: 30vw;
-    }
-    .info-detail h4 {
-        font-size: 1.4vh;
-    }
-    
-    .title-detail h2 {
-        font-size: 2.4vh;
-    }
-    
-    .title-detail .favs-title::after{
-        font-size: 1.4vh;
-    }
-    
-    .details-detail h3 {
-        font-size: 1.8vh;
-    }
-    
-    .details-detail p {
-        font-size: 1.6vh;
-    }
-    
-    .details-detail p.hr {
-        font-size: 1.4vh;
-    }
+  .album-detail > img {
+    height: 30vw;
+    width: 30vw;
+  }
+  .info-detail h4 {
+    font-size: 1.4vh;
+  }
+
+  .title-detail h2 {
+    font-size: 2.4vh;
+  }
+
+  .title-detail .favs-title::after {
+    font-size: 1.4vh;
+  }
+
+  .details-detail h3 {
+    font-size: 1.8vh;
+  }
+
+  .details-detail p {
+    font-size: 1.6vh;
+  }
+
+  .details-detail p.hr {
+    font-size: 1.4vh;
+  }
 }
 
 @media (max-width: 1200px) {
-    .album-detail>img {
-        height: 40vw;
-        width: 40vw;
-    }
-    .info-detail h4 {
-        font-size: 1.2vh;
-    }
-    
-    .title-detail h2 {
-        font-size: 2.2vh;
-    }
-    
-    .title-detail .favs-title::after{
-        font-size: 1.2vh;
-    }
-    
-    .details-detail h3 {
-        font-size: 1.6vh;
-    }
-    
-    .details-detail p {
-        font-size: 1.4vh;
-    }
-    
-    .details-detail p.hr {
-        font-size: 1.2vh;
-    }
+  .album-detail > img {
+    height: 40vw;
+    width: 40vw;
+  }
+  .info-detail h4 {
+    font-size: 1.2vh;
+  }
+
+  .title-detail h2 {
+    font-size: 2.2vh;
+  }
+
+  .title-detail .favs-title::after {
+    font-size: 1.2vh;
+  }
+
+  .details-detail h3 {
+    font-size: 1.6vh;
+  }
+
+  .details-detail p {
+    font-size: 1.4vh;
+  }
+
+  .details-detail p.hr {
+    font-size: 1.2vh;
+  }
 }
 
 @media (max-width: 1050px) {
-    .info-detail h4 {
-        font-size: 1vh;
-    }
-    
-    .title-detail h2 {
-        font-size: 1.8vh;
-    }
-    
-    .title-detail .favs-title::after{
-        font-size: 1vh;
-    }
-    
-    .details-detail h3 {
-        font-size: 1.4vh;
-    }
-    
-    .details-detail p {
-        font-size: 1.2vh;
-    }
-    
-    .details-detail p.hr {
-        font-size: 1vh;
-    }
+  .info-detail h4 {
+    font-size: 1vh;
+  }
+
+  .title-detail h2 {
+    font-size: 1.8vh;
+  }
+
+  .title-detail .favs-title::after {
+    font-size: 1vh;
+  }
+
+  .details-detail h3 {
+    font-size: 1.4vh;
+  }
+
+  .details-detail p {
+    font-size: 1.2vh;
+  }
+
+  .details-detail p.hr {
+    font-size: 1vh;
+  }
 }
 
 @media (max-width: 770px) {
-    .album-detail>img {
-        height: 55vw;
-        width: 55vw;
-    }
-    .info-detail h4 {
-        font-size: .8vh;
-    }
-    
-    .title-detail h2 {
-        font-size: 1.6vh;
-    }
-    
-    .title-detail .favs-title::after{
-        font-size: .8vh;
-    }
-    
-    .details-detail h3 {
-        font-size: 1.2vh;
-    }
-    
-    .details-detail p {
-        font-size: 1vh;
-    }
-    
-    .details-detail p.hr {
-        font-size: .8vh;
-    }
+  .album-detail > img {
+    height: 55vw;
+    width: 55vw;
+  }
+  .info-detail h4 {
+    font-size: 0.8vh;
+  }
+
+  .title-detail h2 {
+    font-size: 1.6vh;
+  }
+
+  .title-detail .favs-title::after {
+    font-size: 0.8vh;
+  }
+
+  .details-detail h3 {
+    font-size: 1.2vh;
+  }
+
+  .details-detail p {
+    font-size: 1vh;
+  }
+
+  .details-detail p.hr {
+    font-size: 0.8vh;
+  }
 }
 
 @media (max-width: 520px) {
-    .info-detail h4 {
-        font-size: .6vh;
-    }
-    
-    .title-detail h2 {
-        font-size: 1.4vh;
-    }
-    
-    .title-detail .favs-title::after{
-        font-size: .6vh;
-    }
-    
-    .details-detail h3 {
-        font-size: 1vh;
-    }
-    
-    .details-detail p {
-        font-size: .8vh;
-    }
-    
-    .details-detail p.hr {
-        font-size: .6vh;
-    }
+  .info-detail h4 {
+    font-size: 0.6vh;
+  }
+
+  .title-detail h2 {
+    font-size: 1.4vh;
+  }
+
+  .title-detail .favs-title::after {
+    font-size: 0.6vh;
+  }
+
+  .details-detail h3 {
+    font-size: 1vh;
+  }
+
+  .details-detail p {
+    font-size: 0.8vh;
+  }
+
+  .details-detail p.hr {
+    font-size: 0.6vh;
+  }
 }
 
 @media (max-width: 300px) {
-    .info-detail h4 {
-        font-size: .4vh;
-    }
-    
-    .title-detail h2 {
-        font-size: 1.2vh;
-    }
-    
-    .title-detail .favs-title::after{
-        font-size: .6vh;
-    }
-    
-    .details-detail h3 {
-        font-size: .8vh;
-    }
-    
-    .details-detail p {
-        font-size: .6vh;
-    }
-    
-    .details-detail p.hr {
-        font-size: .6vh;
-    }
+  .info-detail h4 {
+    font-size: 0.4vh;
+  }
+
+  .title-detail h2 {
+    font-size: 1.2vh;
+  }
+
+  .title-detail .favs-title::after {
+    font-size: 0.6vh;
+  }
+
+  .details-detail h3 {
+    font-size: 0.8vh;
+  }
+
+  .details-detail p {
+    font-size: 0.6vh;
+  }
+
+  .details-detail p.hr {
+    font-size: 0.6vh;
+  }
 }

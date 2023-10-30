@@ -1,6 +1,6 @@
-import { getAlbum } from "../../data/albums2023";
-import "./AlbumDetail.css";
-import { useParams } from "react-router-dom";
+import { getAlbum } from '../../data/albums2023';
+import './AlbumDetail.css';
+import { useParams } from 'react-router-dom';
 
 export const AlbumDetail = () => {
   const { title } = useParams();
@@ -20,8 +20,10 @@ export const AlbumDetail = () => {
             <div className="info-detail">
               <h4>{album.type}</h4>
               <div className="title-detail">
-                {album.favs === "⭐" ? (
-                  <h2 className="favs-title">{album.title}</h2>
+                {album.favs === '⭐' ? (
+                  <a className="link" href={album.link} target="blank">
+                    <h2 className="favs-title">{album.title}</h2>
+                  </a>
                 ) : (
                   <h2>{album.title}</h2>
                 )}
@@ -31,7 +33,7 @@ export const AlbumDetail = () => {
                 <p>
                   {album.releasedate} · {album.songs} songs · {album.duration}
                 </p>
-                {album.hr ? <p className="hr">*Highly Recommended*</p> : ""}
+                {album.hr ? <p className="hr">*Highly Recommended*</p> : ''}
               </div>
             </div>
           </section>

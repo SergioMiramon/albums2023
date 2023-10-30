@@ -1,77 +1,78 @@
-.filter-section{
-    max-width: 60vw;
-    height: inherit;
-    padding-top: 0;
-    display: flex;
-    flex-direction:row;
+.filter-section {
+  max-width: 60vw;
+  height: inherit;
+  padding-top: 0;
+  display: flex;
+  flex-direction: row;
 }
 
 .reverse-filter {
-    width: inherit;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
-.reverse-filter img{
-    max-width: 2.5vh;
-    filter: invert(1);
-    -webkit-filter: invert(1);
+.reverse-filter img {
+  max-width: 2.5vh;
+  cursor: pointer;
+  filter: invert(1);
+  -webkit-filter: invert(1);
 }
 
 .pagination {
-    width: 10vw;
-    padding-top: 2vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 2vh;
+  width: 10vw;
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2vh;
 }
 
-.pagination img{
-    max-width: 2.5vh;
-    filter: invert(1);
-    -webkit-filter: invert(1);
+.pagination img {
+  max-width: 2.5vh;
+  filter: invert(1);
+  -webkit-filter: invert(1);
 }
 
 .prev-page {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 h1 {
-    color: var(--secondary-bg-color);
-    text-transform: capitalize;
+  color: var(--secondary-bg-color);
+  text-transform: capitalize;
 }
 h2 {
-    color: var(--main-bg-color);
+  color: var(--main-bg-color);
 }
 .albums {
-    padding-top: 2vh;
-    gap: 4vh;
+  padding-top: 2vh;
+  gap: 4vh;
 }
 
-.albums>div {
-    display: flex;
-    flex-direction: column;
+.albums > div {
+  display: flex;
+  flex-direction: column;
 }
 
-.albums>figure{
-    width: 60vw;
-    animation: scaleAlbums .5s linear;
-    -webkit-animation: scaleAlbums .5s linear;
+.albums > figure {
+  width: 60vw;
+  animation: scaleAlbums 0.5s linear;
+  -webkit-animation: scaleAlbums 0.5s linear;
 }
 
 @keyframes scaleAlbums {
-    0% {
-      scale: 98%;
-    }
-    100% {
-      scale: 100%;
-    }
+  0% {
+    scale: 98%;
   }
+  100% {
+    scale: 100%;
+  }
+}
 
 @media (max-width: 770px) {
-    .albums-section{
-        padding: 0;
-    }
+  .albums-section {
+    padding: 0;
+  }
 }

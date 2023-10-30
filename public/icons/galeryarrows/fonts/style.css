@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'galeryarrows';
-  src:  url('fonts/galeryarrows.eot?7n2sxa');
-  src:  url('fonts/galeryarrows.eot?7n2sxa#iefix') format('embedded-opentype'),
+  src: url('fonts/galeryarrows.eot?7n2sxa');
+  src:
+    url('fonts/galeryarrows.eot?7n2sxa#iefix') format('embedded-opentype'),
     url('fonts/galeryarrows.ttf?7n2sxa') format('truetype'),
     url('fonts/galeryarrows.woff?7n2sxa') format('woff'),
     url('fonts/galeryarrows.svg?7n2sxa#galeryarrows') format('svg');
@@ -10,7 +11,8 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^='icon-'],
+[class*=' icon-'] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'galeryarrows' !important;
   speak: never;
@@ -26,8 +28,8 @@
 }
 
 .icon-arrow-right2:before {
-  content: "\ea3c";
+  content: '\ea3c';
 }
 .icon-arrow-left2:before {
-  content: "\ea40";
+  content: '\ea40';
 }

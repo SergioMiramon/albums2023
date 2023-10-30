@@ -1,26 +1,26 @@
-.filters{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 1vw;
+.filters {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1vw;
 }
-.filters select{
-    max-height: 3vh;
-    max-width: 22vw;
-    text-align: center;
-    text-transform: capitalize;
-    background: var(--main-bg-color);
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    cursor: pointer;
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
+.filters select {
+  max-height: 3vh;
+  max-width: 22vw;
+  text-align: center;
+  text-transform: capitalize;
+  background: var(--main-bg-color);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
 }
 
 @media (max-width: 770px) {
-    .filters select{
-        max-height: 3vh;
-    }
+  .filters select {
+    max-height: 3vh;
+  }
 }

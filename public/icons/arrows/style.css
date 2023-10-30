@@ -1,7 +1,8 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?5p8j');
-  src:  url('fonts/icomoon.eot?5p8j#iefix') format('embedded-opentype'),
+  src: url('fonts/icomoon.eot?5p8j');
+  src:
+    url('fonts/icomoon.eot?5p8j#iefix') format('embedded-opentype'),
     url('fonts/icomoon.ttf?5p8j') format('truetype'),
     url('fonts/icomoon.woff?5p8j') format('woff'),
     url('fonts/icomoon.svg?5p8j#icomoon') format('svg');
@@ -10,7 +11,8 @@
   font-display: block;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^='icon-'],
+[class*=' icon-'] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: never;
@@ -26,8 +28,8 @@
 }
 
 .icon-arrow-right2:before {
-  content: "\ea39";
+  content: '\ea39';
 }
 .icon-arrow-left2:before {
-  content: "\ea40";
+  content: '\ea40';
 }

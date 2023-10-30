@@ -1,43 +1,43 @@
 .favs-header {
-    max-width: 60vw;
-    height: inherit;
-    padding-top: 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  max-width: 60vw;
+  height: inherit;
+  padding-top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.favs-header>h1{
-    font-size: 1.8vh;
-    color: var(--white-color);
+.favs-header > h1 {
+  font-size: 1.8vh;
+  color: var(--white-color);
 }
 
 .favs {
-    padding-top: 2vh;
-    gap: 4vh;
-    margin-bottom: 4vh;
+  padding-top: 2vh;
+  gap: 4vh;
+  margin-bottom: 4vh;
 }
 
-.favs>a {
-    width: 60vw;
-    animation: scaleFavs .5s linear;
-    -webkit-animation: scaleFavs .5s linear;
+.favs > a {
+  width: 60vw;
+  animation: scaleFavs 0.5s linear;
+  -webkit-animation: scaleFavs 0.5s linear;
 }
 
 .favs-title {
-    padding-top: 0;
+  padding-top: 0;
 }
 
 @keyframes scaleFavs {
-    0% {
-      scale: 98%;
-    }
-    100% {
-      scale: 100%;
-    }
+  0% {
+    scale: 98%;
   }
+  100% {
+    scale: 100%;
+  }
+}
 
 @media (max-width: 770px) {
-    .favs-section{
-        padding: 0;
-    }
+  .favs-section {
+    padding: 0;
+  }
 }

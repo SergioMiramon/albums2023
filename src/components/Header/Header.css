@@ -1,55 +1,55 @@
 header {
-    position: fixed;
-    width: 100vw;
-    height: 6vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2vh;
-    flex-wrap: wrap;
-    z-index: 100;
+  position: fixed;
+  width: 100vw;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2vh;
+  flex-wrap: wrap;
+  z-index: 100;
 }
 
-nav ul{
-    display: flex;
-    flex-direction: row;
-    gap: 2vh;
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2vh;
 }
 
 nav ul li {
-    color: var(--white-color);
+  color: var(--white-color);
 }
 
 nav ul li:hover {
-    color: var(--tertiary-color);
+  color: var(--tertiary-color);
 }
 
-nav ul li a{
-    font-size: 1.6vh;
+nav ul li a {
+  font-size: 1.6vh;
 }
 
-.active{
-    color: var(--tertiary-color);
+.active {
+  color: var(--tertiary-color);
 }
 
-.logo{
-    width: 2.5vh;
-    max-width: 750px;
-    margin-top: 5px;
-    height: 2.5vh;
-    background: transparent;
-    margin-left: .75vh;
+.logo {
+  width: 2.5vh;
+  max-width: 750px;
+  margin-top: 5px;
+  height: 2.5vh;
+  background: transparent;
+  margin-left: 0.75vh;
 }
 
 @media (max-width: 770px) {
-    header{
-        position: relative;
-    }
-    .logo{
-        width: 2vh;
-        margin-top: 5px;
-        height: 2vh;
-        background: transparent;
-        margin-left: .75vh;
-    }
+  header {
+    position: relative;
+  }
+  .logo {
+    width: 2vh;
+    margin-top: 5px;
+    height: 2vh;
+    background: transparent;
+    margin-left: 0.75vh;
+  }
 }

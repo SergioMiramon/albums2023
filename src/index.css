@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
 
 :root {
@@ -6,10 +6,14 @@
   --secondary-bg-color: #e05353;
   --tertiary-color: #dda3a3;
   --white-color: #ffffff;
-  --primary-bg-color: -webkit-linear-gradient(45deg, rgba(88,88,88,1) 0%, rgba(199,199,199,1) 100%);
+  --primary-bg-color: -webkit-linear-gradient(
+    45deg,
+    rgba(88, 88, 88, 1) 0%,
+    rgba(199, 199, 199, 1) 100%
+  );
   --body-bg-color: -webkit-linear-gradient(0deg, #8e9eab 0%, #eef2f3 100%);
-  --purple-body-bg-color: -webkit-linear-gradient(to top, #2E1437, #948E99);
-  --main-font-family: "Vollkorn", "Poppins";
+  --purple-body-bg-color: -webkit-linear-gradient(to top, #2e1437, #948e99);
+  --main-font-family: 'Vollkorn', 'Poppins';
 }
 
 * {
@@ -43,7 +47,7 @@ body {
   color: var(--main-bg-color);
 }
 
-section{
+section {
   position: relative;
   width: 100vw;
   padding-top: 8vh;
@@ -52,7 +56,7 @@ section{
   align-items: center;
 }
 
-section>div {
+section > div {
   position: relative;
   width: 60vw;
   height: inherit;
@@ -73,6 +77,7 @@ section>div {
   overflow: hidden;
 }
 
-a, p {
+a,
+p {
   font-size: 1.1rem;
 }
