@@ -23,18 +23,13 @@ export const AlbumGrid = ({album}) => {
             className="album-cover"
             onClick={() => getImg(album.image)}
           />
-          {album.favs === "⭐" ? (
-            <a className="link" href={album.link}>
-              <img src="/icons/images/link.png" alt={`${album.title}-link`}/>
-            </a>
-          ) : (
-            ""
-          )}
           <div className="info">
             <h4>{album.type}</h4>
             <div className="title">
               {album.favs === "⭐" ? (
+                <a className="link" href={album.link} target="blank">
                 <h2 className="favs-title">{album.title}</h2>
+                </a>
               ) : (
                 <h2>{album.title}</h2>
               )}

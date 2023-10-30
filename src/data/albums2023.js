@@ -266,7 +266,7 @@ export const albums = [
     "duration": "11min 19s",
     "genre": "pop",
     "image": "/icons/images/calendar/diez-vueltas-al-sol.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/1b4e1McTyILJe3TeHc6IWk?si=qoFIhWc6Tme8VUuYp-YkTA",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -298,7 +298,7 @@ export const albums = [
     "duration": "35min 41s",
     "genre": "rap",
     "image": "/icons/images/calendar/contra-todo-pronostico.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/6Vci5Gbazs7TZYDNliRJKO?si=gI9Mos7zQaaTYnQTf_h_UQ",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -362,7 +362,7 @@ export const albums = [
     "duration": "16min 58s",
     "genre": "r&b",
     "image": "/icons/images/calendar/swarm.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/7AXxq1n3X7JZbbEnGCfLAX?si=4917572c66724df8",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -394,7 +394,7 @@ export const albums = [
     "duration": "1h 17min",
     "genre": "indie",
     "image": "/icons/images/calendar/dyktttuob.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/5HOHne1wzItQlIYmLXLYfZ?si=8d87592c70bb44fb",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -410,7 +410,7 @@ export const albums = [
     "duration": "36min 19s",
     "genre": "rap",
     "image": "/icons/images/calendar/scaring-the-hoes.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/3u20OXh03DjCUzbf8XcGTq?si=2b7e2ffde620401b",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -458,7 +458,7 @@ export const albums = [
     "duration": "23min 37s",
     "genre": "rap",
     "image": "/icons/images/calendar/eight-ballers.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/1e6VVVwMYycNbPtn1GsZJy?si=efa1368eb52841fb",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -490,7 +490,7 @@ export const albums = [
     "duration": "31min 16s",
     "genre": "rap",
     "image": "/icons/images/calendar/glorious-game.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/73IZHjXw93CWjWoDpmQ6Vy?si=89cee6c2c5c840a9",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -762,7 +762,7 @@ export const albums = [
     "duration": "12min 42s",
     "genre": "rap",
     "image": "/icons/images/calendar/4-temas.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/1a2x6o2Hsn00hOF2csmzJX?si=5e6daeed21894e4f",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -778,7 +778,7 @@ export const albums = [
     "duration": "1h 16min",
     "genre": "trap",
     "image": "/icons/images/calendar/me-muevo-con-dios.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/7yvmtCjHcBe9DqIVl7AwQT?si=2dab38b78ce54de4",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -970,7 +970,7 @@ export const albums = [
     "duration": "17min 24s",
     "genre": "indie",
     "image": "/icons/images/calendar/artilleria.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/6jVA72WRY7ixs7K4Qx0A28?si=a3793b7e502949a7",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -986,7 +986,7 @@ export const albums = [
     "duration": "1h 1min",
     "genre": "rap",
     "image": "/icons/images/calendar/panico.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/3DbhVw6p0iVdefGuSjXKdO?si=3020e4c8aa574393",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -1034,7 +1034,7 @@ export const albums = [
     "duration": "20min 25s",
     "genre": "pop",
     "image": "/icons/images/calendar/claridad.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/3WfOIUEYZSSBlJVzF9UCt0?si=337a24eb8d6348b9",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -1082,7 +1082,7 @@ export const albums = [
     "duration": "41min 1s",
     "genre": "pop",
     "image": "/icons/images/calendar/po2054az-vol1.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/2FQ1wvw5azk1cHo1YDzNXT?si=14e6e91119a543a8",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -1146,7 +1146,7 @@ export const albums = [
     "duration": "1h 3min",
     "genre": "rap",
     "image": "/icons/images/calendar/baby.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/766bxryPZBL0hjz0KM6VUD?si=e8f844b750f54bff",
     "favm": "⭐",
     "favs": "⭐",
     "hr": false
@@ -1338,7 +1338,7 @@ export const albums = [
     "duration": "33min 27s",
     "genre": "rap",
     "image": "/icons/images/calendar/el-lamento-de-los-niños-pobres.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/5oG6eiLWWiF0QQOzXZVqxf?si=b3492a03ec124318",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -1402,7 +1402,7 @@ export const albums = [
     "duration": "42min 44s",
     "genre": "experimental",
     "image": "/icons/images/calendar/playing-robots-into-heaven.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/2ZwNcWl8h9blysDE8i4juL?si=18f679e0ea8b4393",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -1418,7 +1418,7 @@ export const albums = [
     "duration": "41min 41s",
     "genre": "pop",
     "image": "/icons/images/calendar/papel-de-burbujas.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/24Xhdsa3kUc1BRa2iA9rO5?si=cb32a48283aa4c05",
     "favm": "⭐",
     "favs": "⭐",
     "hr": true
@@ -1450,7 +1450,7 @@ export const albums = [
     "duration": "1h 24min",
     "genre": "r&b",
     "image": "/icons/images/calendar/the-love-album.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/1Z67w2JtLfO8D2dP0Mwpy1?si=dd1f55f2f0be4769",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -1466,7 +1466,7 @@ export const albums = [
     "duration": "18min 44s",
     "genre": "pop",
     "image": "/icons/images/calendar/summer-series23.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/5AAMmtGHyu6zHZGneRia6x?si=40de215311504a8d",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -1546,7 +1546,7 @@ export const albums = [
     "duration": "43min 48s",
     "genre": "r&b",
     "image": "/icons/images/calendar/falling-or-flying.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/3cCpJc6LhvskN7i9w3WkaA?si=ad7bc69feb25443b",
     "favm": "",
     "favs": "⭐",
     "hr": true
@@ -1594,7 +1594,7 @@ export const albums = [
     "duration": "15min 13s",
     "genre": "rap",
     "image": "/icons/images/calendar/cosas-que-brillan.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/6yib7IjF5TixIRpL5gDgDx?si=40aceff353434336",
     "favm": "",
     "favs": "⭐",
     "hr": false
@@ -1674,7 +1674,7 @@ export const albums = [
     "duration": "41min 45s",
     "genre": "r&b",
     "image": "/icons/images/calendar/obsidian.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/4545KLMxMvi6RBnNRe58t6?si=hluIDmWIT-qLxUnGVsRgfQ",
     "favm": "",
     "favs": "⭐",
     "hr": false
@@ -1882,7 +1882,7 @@ export const albums = [
     "duration": "31min 51s",
     "genre": "pop",
     "image": "/icons/images/calendar/que-entren-en-mi-cabeza.jpg",
-    "link": "",
+    "link": "https://open.spotify.com/intl-es/album/6GDCV6UWVgWDyiaw8QVQPz?si=EkhKUZoUSmeIV0IzuUvbqw",
     "favm": "",
     "favs": "⭐",
     "hr": false
