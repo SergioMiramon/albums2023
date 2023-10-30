@@ -43,7 +43,7 @@
     justify-content: center;
     align-items: center;
 }
-.modal img{
+.modal>img{
   position: relative;
   height: 60%;
   width: 60%;
@@ -52,6 +52,7 @@
   align-items: center;
   justify-content: center;
 }
+
 figure{
     height: inherit;
     position: relative;
@@ -69,19 +70,29 @@ figure:hover{
     width: inherit;
     height: inherit;
     background-color: #ffffff2a;
-    z-index: 1;
+    border-radius: .5vh;
     transform: scale(1.02);
     -webkit-transform: scale(1.02);
     -moz-transform: scale(1.02);
     -ms-transform: scale(1.02);
     -o-transform: scale(1.02);
+    -webkit-border-radius: .5vh;
+    -moz-border-radius: .5vh;
+    -ms-border-radius: .5vh;
+    -o-border-radius: .5vh;
 }
+
 figure img {
     position: relative;
     height: 18vw;
     width: 18vw;
     cursor: pointer;
     grid-area: img;
+}
+
+.album-cover{
+    border-bottom-left-radius: .5vh;
+    border-top-left-radius: .5vh;
 }
 
 .info {
@@ -252,7 +263,7 @@ figure img {
     }
     
     .title h2 {
-        font-size: 1vh;
+        font-size: .8vh;
     }
     
     .title .favs-title::after{

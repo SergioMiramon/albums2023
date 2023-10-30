@@ -9,18 +9,23 @@
     gap: 1.5vh;
 }
 
+.album-detail>img {
+    position: relative;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
 .album-detail>img:hover{
     transform: scale(1.01);
     -webkit-transform: scale(1.01);
     -moz-transform: scale(1.01);
     -ms-transform: scale(1.01);
     -o-transform: scale(1.01);
-}
-
-.album-detail>img {
-    position: relative;
-    height: 30vw;
-    width: 30vw;
 }
 
 .album-detail .info-detail {

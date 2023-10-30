@@ -17,7 +17,7 @@ export const AlbumGrid = ({album}) => {
             <i className="arrows icon-arrow-left2" onClick={() => setAlbumModal(false)}></i>
         </div>
         <figure>
-            <img src={album.image} alt={album.title} onClick={() => getImg(album.image)}/>
+            <img src={album.image} alt={album.title} className="album-cover" onClick={() => getImg(album.image)}/>
                 <div className="info">
                     <h4>{album.type}</h4>
                     <div className="title">
