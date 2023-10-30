@@ -11,7 +11,6 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/pensando-mucho-y-mal.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -27,7 +26,6 @@ export const albums = [
     "genre": "electronic",
     "image": "/icons/images/calendar/12.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -43,7 +41,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/bars.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -59,7 +56,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/losing-my-religion.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -75,7 +71,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/blue-magic.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -91,7 +86,6 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/cracker-island.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -107,7 +101,6 @@ export const albums = [
     "genre": "rock",
     "image": "/icons/images/calendar/lets-start-here.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -123,7 +116,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/fomo.jpg",
     "link": "https://open.spotify.com/intl-es/album/2wj8AHax9qryX210NBwu5Q?si=zKOMm0mtQ3mUPHoYEgtnow",
-    "favm": "⭐",
     "favs": "⭐",
     "hr": true
   },
@@ -139,7 +131,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/planet-terror-remixes.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -155,7 +146,6 @@ export const albums = [
     "genre": "hyperpop",
     "image": "/icons/images/calendar/cosas-de-brujas.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -171,7 +161,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/brazzy-dayz.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -187,7 +176,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/raven.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -203,7 +191,6 @@ export const albums = [
     "genre": "rock",
     "image": "/icons/images/calendar/this-is-why.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -219,7 +206,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/desire.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -235,7 +221,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/glow.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -251,7 +236,6 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/bcn747.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -267,7 +251,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/diez-vueltas-al-sol.jpg",
     "link": "https://open.spotify.com/intl-es/album/1b4e1McTyILJe3TeHc6IWk?si=qoFIhWc6Tme8VUuYp-YkTA",
-    "favm": "⭐",
     "favs": "⭐",
     "hr": true
   },
@@ -283,7 +266,6 @@ export const albums = [
     "genre": "country",
     "image": "/icons/images/calendar/workin-on-a-world.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -299,7 +281,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/contra-todo-pronostico.jpg",
     "link": "https://open.spotify.com/intl-es/album/6Vci5Gbazs7TZYDNliRJKO?si=gI9Mos7zQaaTYnQTf_h_UQ",
-    "favm": "",
     "favs": "⭐",
     "hr": true
   },
@@ -315,7 +296,6 @@ export const albums = [
     "genre": "electronic",
     "image": "/icons/images/calendar/jungle.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -331,7 +311,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/mpfctx.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -347,7 +326,6 @@ export const albums = [
     "genre": "hyperpop",
     "image": "/icons/images/calendar/10000gecs.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -363,7 +341,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/swarm.jpg",
     "link": "https://open.spotify.com/intl-es/album/7AXxq1n3X7JZbbEnGCfLAX?si=4917572c66724df8",
-    "favm": "⭐",
     "favs": "⭐",
     "hr": true
   },
@@ -379,7 +356,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/ways-of-knowing.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -395,7 +371,6 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/dyktttuob.jpg",
     "link": "https://open.spotify.com/intl-es/album/5HOHne1wzItQlIYmLXLYfZ?si=8d87592c70bb44fb",
-    "favm": "",
     "favs": "⭐",
     "hr": true
   },
@@ -411,7 +386,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/scaring-the-hoes.jpg",
     "link": "https://open.spotify.com/intl-es/album/3u20OXh03DjCUzbf8XcGTq?si=2b7e2ffde620401b",
-    "favm": "",
     "favs": "⭐",
     "hr": true
   },
@@ -427,7 +401,6 @@ export const albums = [
     "genre": "rock",
     "image": "/icons/images/calendar/the-record.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -443,7 +416,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/novia-del-año.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -459,7 +431,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/eight-ballers.jpg",
     "link": "https://open.spotify.com/intl-es/album/1e6VVVwMYycNbPtn1GsZJy?si=efa1368eb52841fb",
-    "favm": "⭐",
     "favs": "⭐",
     "hr": true
   },
@@ -475,7 +446,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/sremm-4-life.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -491,7 +461,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/glorious-game.jpg",
     "link": "https://open.spotify.com/intl-es/album/73IZHjXw93CWjWoDpmQ6Vy?si=89cee6c2c5c840a9",
-    "favm": "",
     "favs": "⭐",
     "hr": true
   },
@@ -507,7 +476,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/wdteguptl.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -523,7 +491,6 @@ export const albums = [
     "genre": "jazz",
     "image": "/icons/images/calendar/enigmatic-society.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -539,7 +506,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/33.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -555,7 +521,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/bang-bang.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -571,7 +536,6 @@ export const albums = [
     "genre": "drill",
     "image": "/icons/images/calendar/trickstar.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -587,7 +551,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/ends-and-begins.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -603,7 +566,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/that-feels-good.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": true
   },
@@ -619,7 +581,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/metropoli.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -635,7 +596,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/stupido-amore.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -651,7 +611,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/wont-he-do-it.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -667,7 +626,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/el-tobogan.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -683,7 +641,6 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/alto-cielo.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -699,7 +656,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/oraculo.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -715,7 +671,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/doctrina.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -731,7 +686,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/paraiso.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -747,7 +701,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/en-una-nube.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": true
   },
@@ -763,7 +716,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/4-temas.jpg",
     "link": "https://open.spotify.com/intl-es/album/1a2x6o2Hsn00hOF2csmzJX?si=5e6daeed21894e4f",
-    "favm": "⭐",
     "favs": "⭐",
     "hr": true
   },
@@ -779,7 +731,6 @@ export const albums = [
     "genre": "trap",
     "image": "/icons/images/calendar/me-muevo-con-dios.jpg",
     "link": "https://open.spotify.com/intl-es/album/7yvmtCjHcBe9DqIVl7AwQT?si=2dab38b78ce54de4",
-    "favm": "",
     "favs": "⭐",
     "hr": true
   },
@@ -795,7 +746,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/16-millas.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -811,7 +761,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/redrum.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -827,7 +776,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/amores-naufragos.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -843,7 +791,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/instinto-animal-vol2.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -859,7 +806,6 @@ export const albums = [
     "genre": "rock",
     "image": "/icons/images/calendar/but-here-we-are.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -875,7 +821,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/split-decision.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -891,7 +836,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/6.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -907,7 +851,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/fountain-baby.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -923,7 +866,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/when-i-hear-your-name.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -939,7 +881,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/nada-que-aportar.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -955,7 +896,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/el-pelusa-jimenez.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -971,7 +911,6 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/artilleria.jpg",
     "link": "https://open.spotify.com/intl-es/album/6jVA72WRY7ixs7K4Qx0A28?si=a3793b7e502949a7",
-    "favm": "⭐",
     "favs": "⭐",
     "hr": true
   },
@@ -987,7 +926,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/panico.jpg",
     "link": "https://open.spotify.com/intl-es/album/3DbhVw6p0iVdefGuSjXKdO?si=3020e4c8aa574393",
-    "favm": "",
     "favs": "⭐",
     "hr": true
   },
@@ -1003,7 +941,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/its-not-you-its-me.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1019,7 +956,6 @@ export const albums = [
     "genre": "heavy metal",
     "image": "/icons/images/calendar/petrodragonic.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1035,7 +971,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/claridad.jpg",
     "link": "https://open.spotify.com/intl-es/album/3WfOIUEYZSSBlJVzF9UCt0?si=337a24eb8d6348b9",
-    "favm": "⭐",
     "favs": "⭐",
     "hr": true
   },
@@ -1051,7 +986,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/time-over-money.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1067,7 +1001,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/your-momma.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1083,7 +1016,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/po2054az-vol1.jpg",
     "link": "https://open.spotify.com/intl-es/album/2FQ1wvw5azk1cHo1YDzNXT?si=14e6e91119a543a8",
-    "favm": "",
     "favs": "⭐",
     "hr": true
   },
@@ -1099,7 +1031,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/hay-fantasmas-todavia.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1115,7 +1046,6 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/my-back-was-a-bridge.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1131,7 +1061,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/the-open-range.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1147,7 +1076,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/baby.jpg",
     "link": "https://open.spotify.com/intl-es/album/766bxryPZBL0hjz0KM6VUD?si=e8f844b750f54bff",
-    "favm": "⭐",
     "favs": "⭐",
     "hr": false
   },
@@ -1163,7 +1091,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/ss23.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1179,7 +1106,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/something.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1195,7 +1121,6 @@ export const albums = [
     "genre": "k-pop",
     "image": "/icons/images/calendar/get-up.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1211,7 +1136,6 @@ export const albums = [
     "genre": "electronic",
     "image": "/icons/images/calendar/new-jazz.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1227,7 +1151,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/the-loveliest-time.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": true
   },
@@ -1243,7 +1166,6 @@ export const albums = [
     "genre": "trap",
     "image": "/icons/images/calendar/utopia.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1259,7 +1181,6 @@ export const albums = [
     "genre": "hyperpop",
     "image": "/icons/images/calendar/metanoia.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1275,7 +1196,6 @@ export const albums = [
     "genre": "dance",
     "image": "/icons/images/calendar/volcano.jpg",
     "link": "",
-    "favm": "⭐",
     "favs": "",
     "hr": true
   },
@@ -1291,7 +1211,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/sundial.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": true
   },
@@ -1307,7 +1226,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/hotel1105.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1323,7 +1241,6 @@ export const albums = [
     "genre": "reggaeton",
     "image": "/icons/images/calendar/estrella.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1339,7 +1256,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/el-lamento-de-los-niños-pobres.jpg",
     "link": "https://open.spotify.com/intl-es/album/5oG6eiLWWiF0QQOzXZVqxf?si=b3492a03ec124318",
-    "favm": "⭐",
     "favs": "⭐",
     "hr": true
   },
@@ -1355,7 +1271,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/i-came-home-late.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1371,7 +1286,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/perro-verde.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1387,7 +1301,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/camina-conmigo.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1403,7 +1316,6 @@ export const albums = [
     "genre": "experimental",
     "image": "/icons/images/calendar/playing-robots-into-heaven.jpg",
     "link": "https://open.spotify.com/intl-es/album/2ZwNcWl8h9blysDE8i4juL?si=18f679e0ea8b4393",
-    "favm": "",
     "favs": "⭐",
     "hr": true
   },
@@ -1419,7 +1331,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/papel-de-burbujas.jpg",
     "link": "https://open.spotify.com/intl-es/album/24Xhdsa3kUc1BRa2iA9rO5?si=cb32a48283aa4c05",
-    "favm": "⭐",
     "favs": "⭐",
     "hr": true
   },
@@ -1435,7 +1346,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/magic3.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1451,7 +1361,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/the-love-album.jpg",
     "link": "https://open.spotify.com/intl-es/album/1Z67w2JtLfO8D2dP0Mwpy1?si=dd1f55f2f0be4769",
-    "favm": "",
     "favs": "⭐",
     "hr": true
   },
@@ -1467,7 +1376,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/summer-series23.jpg",
     "link": "https://open.spotify.com/intl-es/album/5AAMmtGHyu6zHZGneRia6x?si=40de215311504a8d",
-    "favm": "",
     "favs": "⭐",
     "hr": true
   },
@@ -1483,7 +1391,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/safary.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1499,7 +1406,6 @@ export const albums = [
     "genre": "rock",
     "image": "/icons/images/calendar/speak-to-me-breathe.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1515,7 +1421,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/alpha.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": true
   },
@@ -1531,7 +1436,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/sunday-truce.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1547,7 +1451,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/falling-or-flying.jpg",
     "link": "https://open.spotify.com/intl-es/album/3cCpJc6LhvskN7i9w3WkaA?si=ad7bc69feb25443b",
-    "favm": "",
     "favs": "⭐",
     "hr": true
   },
@@ -1563,7 +1466,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/and-then-you-pray-for-me.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": true
   },
@@ -1579,7 +1481,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/for-all-the-dogs.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1595,7 +1496,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/cosas-que-brillan.jpg",
     "link": "https://open.spotify.com/intl-es/album/6yib7IjF5TixIRpL5gDgDx?si=40aceff353434336",
-    "favm": "",
     "favs": "⭐",
     "hr": false
   },
@@ -1611,7 +1511,6 @@ export const albums = [
     "genre": "rock",
     "image": "/icons/images/calendar/the-dark-side-of-the-moon-redux.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1627,7 +1526,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/ve-a-terapia.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1643,7 +1541,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/kaytramine.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1659,7 +1556,6 @@ export const albums = [
     "genre": "reggaeton",
     "image": "/icons/images/calendar/nadie-sabe.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1675,7 +1571,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/obsidian.jpg",
     "link": "https://open.spotify.com/intl-es/album/4545KLMxMvi6RBnNRe58t6?si=hluIDmWIT-qLxUnGVsRgfQ",
-    "favm": "",
     "favs": "⭐",
     "hr": false
   },
@@ -1691,7 +1586,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/lahai.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1707,7 +1601,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/jose.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1723,7 +1616,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/clear-2.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1739,7 +1631,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/supernova.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1755,7 +1646,6 @@ export const albums = [
     "genre": "hyperpop",
     "image": "/icons/images/calendar/fanfare.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1771,7 +1661,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/something-to-give-each-other.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1787,7 +1676,6 @@ export const albums = [
     "genre": "rock",
     "image": "/icons/images/calendar/trincheira-n02.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1803,7 +1691,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/perfect-picture.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1819,7 +1706,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/water-made-us.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1835,7 +1721,6 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/javelin.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1851,7 +1736,6 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/jonny.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1867,7 +1751,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/atta.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1883,7 +1766,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/que-entren-en-mi-cabeza.jpg",
     "link": "https://open.spotify.com/intl-es/album/6GDCV6UWVgWDyiaw8QVQPz?si=EkhKUZoUSmeIV0IzuUvbqw",
-    "favm": "",
     "favs": "⭐",
     "hr": false
   },
@@ -1899,7 +1781,6 @@ export const albums = [
     "genre": "r&b",
     "image": "/icons/images/calendar/larger-than-life.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1915,7 +1796,6 @@ export const albums = [
     "genre": "electronic",
     "image": "/icons/images/calendar/real-cultural-shit.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1931,7 +1811,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/delivery.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1947,7 +1826,6 @@ export const albums = [
     "genre": "instrumental",
     "image": "/icons/images/calendar/medellin-jazz-panorama.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1963,7 +1841,6 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/honey.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1979,7 +1856,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/good-riddance.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -1995,7 +1871,6 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/calendar/atemporal.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -2011,7 +1886,6 @@ export const albums = [
     "genre": "j-pop",
     "image": "/icons/images/calendar/kimochy-season.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -2027,7 +1901,6 @@ export const albums = [
     "genre": "j-pop",
     "image": "/icons/images/calendar/the-book-3.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -2043,7 +1916,6 @@ export const albums = [
     "genre": "flamenco",
     "image": "/icons/images/calendar/ultrabelleza.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -2059,7 +1931,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/silence-between-songs.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -2075,7 +1946,6 @@ export const albums = [
     "genre": "reggaeton",
     "image": "/icons/images/calendar/stem-vius.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -2091,7 +1961,6 @@ export const albums = [
     "genre": "pop",
     "image": "/icons/images/calendar/en-que-pienso-cuando-lloro.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
@@ -2107,24 +1976,23 @@ export const albums = [
     "genre": "indie",
     "image": "/icons/images/calendar/in-the-end-it-always-does.jpg",
     "link": "",
-    "favm": "",
     "favs": "",
     "hr": false
   },
   {
-    title: 'PARANOÏA, ANGELS, TRUE LOVE',
-    artist: 'Christine and the Queens',
-    id: 142,
-    releasedate: '06/09/2023',
-    month: 'june',
-    type: 'Album',
-    songs: 20,
-    duration: '1h 36min',
-    genre: 'pop',
-    image: '/icons/images/calendar/paranoia-angels-true-love.jpg',
-    link: '',
-    favs: '',
-    hr: false,
+    "title": "PARANOÏA, ANGELS, TRUE LOVE",
+    "artist": "Christine and the Queens",
+    "id": 142,
+    "releasedate": "06/09/2023",
+    "month": "june",
+    "type": "Album",
+    "songs": 20,
+    "duration": "1h 36min",
+    "genre": "pop",
+    "image": "/icons/images/calendar/paranoia-angels-true-love.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
   }
 ]
 

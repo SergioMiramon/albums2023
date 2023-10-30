@@ -11,17 +11,19 @@ export const Slider = () => {
   };
 
   return (
-    <section className="slider-section">
-      <div className={albumSlider ? 'modal-slider show' : 'modal-slider'}>
-        <img src={albumSrc} />
-        <i className="arrows" onClick={() => setAlbumSlider(false)}></i>
-      </div>
-      {shuffleSlider.map((album) => (
-        <div key={album.id} onClick={() => getImgSlider(album.image)}>
-          <img src={album.image} alt={album.title} />
-          <p>{album.title}</p>
+    <main>
+      <section className="slider-section">
+        <div className={albumSlider ? 'modal-slider show' : 'modal-slider'}>
+          <img src={albumSrc} />
+          <i className="arrows" onClick={() => setAlbumSlider(false)}></i>
         </div>
-      ))}
-    </section>
+        {shuffleSlider.map((album) => (
+          <div key={album.id} onClick={() => getImgSlider(album.image)}>
+            <img src={album.image} alt={album.title} />
+            <p>{album.title}</p>
+          </div>
+        ))}
+      </section>
+    </main>
   );
 };

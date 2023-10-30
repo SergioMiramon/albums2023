@@ -1,6 +1,6 @@
 import { getAlbum } from '../../data/albums2023';
-import './AlbumDetail.css';
 import { useParams } from 'react-router-dom';
+import './AlbumDetail.css';
 
 export const AlbumDetail = () => {
   const { title } = useParams();
@@ -13,7 +13,6 @@ export const AlbumDetail = () => {
     );
   } else {
     return (
-      <>
         <main>
           <section className="album-detail">
             <img src={album.image} alt={album.title} />
@@ -38,7 +37,6 @@ export const AlbumDetail = () => {
             </div>
           </section>
         </main>
-      </>
     );
   }
 };
