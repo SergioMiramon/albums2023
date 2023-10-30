@@ -135,10 +135,6 @@ figure img {
     font-size: 1.8vh;
 }
 
-.details p.hr {
-    font-size: 1.6vh;
-}
-
 
 @media (max-width: 1660px) {
     .info h4 {
@@ -159,10 +155,6 @@ figure img {
     
     .details p {
         font-size: 1.6vh;
-    }
-    
-    .details p.hr {
-        font-size: 1.4vh;
     }
 }
 
@@ -186,10 +178,6 @@ figure img {
     .details p {
         font-size: 1.4vh;
     }
-    
-    .details p.hr {
-        font-size: 1.2vh;
-    }
 }
 
 @media (max-width: 1050px) {
@@ -211,10 +199,6 @@ figure img {
     
     .details p {
         font-size: 1.2vh;
-    }
-    
-    .details p.hr {
-        font-size: 1vh;
     }
 }
 
@@ -238,10 +222,6 @@ figure img {
     .details p {
         font-size: 1vh;
     }
-    
-    .details p.hr {
-        font-size: .8vh;
-    }
 }
 
 @media (max-width: 520px) {
@@ -264,19 +244,15 @@ figure img {
     .details p {
         font-size: .8vh;
     }
-    
-    .details p.hr {
-        font-size: .6vh;
-    }
 }
 
 @media (max-width: 300px) {
     .info h4 {
-        font-size: .5vh;
+        font-size: .4vh;
     }
     
     .title h2 {
-        font-size: 1.2vh;
+        font-size: 1vh;
     }
     
     .title .favs-title::after{
@@ -284,14 +260,10 @@ figure img {
     }
     
     .details h3 {
-        font-size: .9vh;
+        font-size: .8vh;
     }
     
     .details p {
-        font-size: .7vh;
-    }
-    
-    .details p.hr {
         font-size: .6vh;
     }
 }
