@@ -2083,6 +2083,36 @@ export const albums = [
     "link": "",
     "favs": "",
     "hr": false
+  },
+  {
+    "title": "glass child",
+    "artist": "Kayla Grace",
+    "id": 149,
+    "releasedate": "09/01/2023",
+    "month": "september",
+    "type": "EP",
+    "songs": 6,
+    "duration": "17min 45s",
+    "genre": "indie",
+    "image": "/icons/images/covers/glass-child.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "DACY",
+    "artist": "DACY",
+    "id": 150,
+    "releasedate": "10/06/2023",
+    "month": "october",
+    "type": "Album",
+    "songs": 7,
+    "duration": "22min 8s",
+    "genre": "pop",
+    "image": "/icons/images/covers/dacy.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
   }
 ]
 
