@@ -1999,12 +1999,87 @@ export const albums = [
     "artist": "Devon Hendryx",
     "id": 143,
     "releasedate": "10/23/2023",
-    "month": "octubre",
+    "month": "october",
     "type": "Album",
     "songs": 39,
     "duration": "2h 4min",
     "genre": "electronic",
     "image": "/icons/images/covers/the-ghost-pop-tape.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "SPIDERMAN: ACROSS THE SPIDER-VERSE (BSO)",
+    "artist": "Metro Boomin",
+    "id": 144,
+    "releasedate": "06/02/2023",
+    "month": "june",
+    "type": "Album",
+    "songs": 13,
+    "duration": "47min 10s",
+    "genre": "rap",
+    "image": "/icons/images/covers/spiderman-across-the-spider-verse.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "BOICOT",
+    "artist": "Alizzz",
+    "id": 145,
+    "releasedate": "02/10/2023",
+    "month": "february",
+    "type": "EP",
+    "songs": 5,
+    "duration": "20min",
+    "genre": "rock",
+    "image": "/icons/images/covers/boicot.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Figure of 8",
+    "artist": "Natalie Shay",
+    "id": 146,
+    "releasedate": "10/06/2023",
+    "month": "october",
+    "type": "EP",
+    "songs": 4,
+    "duration": "12min 22s",
+    "genre": "indie",
+    "image": "/icons/images/covers/figure-of-8.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Subtle Body Dawn",
+    "artist": "Anna Wise",
+    "id": 147,
+    "releasedate": "02/16/2023",
+    "month": "february",
+    "type": "Album",
+    "songs": 7,
+    "duration": "19min 51s",
+    "genre": "r&b",
+    "image": "/icons/images/covers/subtle-body-dawn.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "the rest",
+    "artist": "boygenius",
+    "id": 148,
+    "releasedate": "13/10/2023",
+    "month": "october",
+    "type": "EP",
+    "songs": 4,
+    "duration": "12min 6s",
+    "genre": "rock",
+    "image": "/icons/images/covers/the-rest.jpg",
     "link": "",
     "favs": "",
     "hr": false
@@ -2015,7 +2090,7 @@ export const albums = [
   .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
 
   export const albumsTot = dateSort.length;
-
+  console.log(albumsTot)
   const types = dateSort.map((data) => data.type).sort();
   export const typeFilter = [...new Set(types)];
 

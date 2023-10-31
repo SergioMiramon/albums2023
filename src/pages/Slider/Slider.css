@@ -4,8 +4,8 @@
   height: calc(100vh - 8vh);
   display: flex;
   flex-direction: row;
-  animation: sliderScroll 320s linear infinite;
-  -webkit-animation: sliderScroll 320s linear infinite;
+  animation: sliderScroll 360s linear infinite;
+  -webkit-animation: sliderScroll 360s linear infinite;
 }
 
 @keyframes sliderScroll {
@@ -13,7 +13,7 @@
     left: 0%;
   }
   50% {
-    left: -1240vw;
+    left: -1290vw;
   }
   100% {
     left: 0%;
