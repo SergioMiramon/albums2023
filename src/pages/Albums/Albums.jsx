@@ -40,10 +40,13 @@ export const Albums = () => {
     <main>
       <section className="albums-section">
         <section className="filter-section">
-          <Filter onTypeSelected={onTypeSelected} onGenreSelected={onGenreSelected} />
+          <Filter
+            onTypeSelected={onTypeSelected}
+            onGenreSelected={onGenreSelected}
+          />
           <div className="reverse-filter">
-            {typeValue == '' && genreValue == '' ? (
-              ''
+            {typeValue == "" && genreValue == "" ? (
+              ""
             ) : !albumsSort ? (
               <img
                 onClick={() => setAlbumsSort(!albumsSort)}
@@ -61,59 +64,79 @@ export const Albums = () => {
         </section>
         <section className="albums">
           {albumsSort
-            ? typeValue == '' && genreValue == ''
+            ? typeValue == "" && genreValue == ""
               ? paginationAlbums().map((album) => (
-                <AlbumGrid album={album} key={album.id} />
-              ))
-              : typeValue == '' || genreValue == ''
-                ? dateSort
-                  .filter((album) => album.type == typeValue || album.genre == genreValue)
+                  <AlbumGrid album={album} key={album.id} />
+                ))
+              : typeValue == "" || genreValue == ""
+              ? dateSort
+                  .filter(
+                    (album) =>
+                      album.type == typeValue || album.genre == genreValue
+                  )
                   .map((album) => <AlbumGrid album={album} key={album.id} />)
-                : genreValue && typeValue
-                  ? dateSort
-                    .filter((album) => album.type == typeValue && album.genre == genreValue)
-                    .map((album) => <AlbumGrid album={album} key={album.id} />)
-                  : dateSort
-                    .filter((album) => album.type == typeValue || album.genre == genreValue)
-                    .map((album) => <AlbumGrid album={album} key={album.id} />)
-            : typeValue == '' && genreValue == ''
-              ? paginationAlbums()
+              : genreValue && typeValue
+              ? dateSort
+                  .filter(
+                    (album) =>
+                      album.type == typeValue && album.genre == genreValue
+                  )
+                  .map((album) => <AlbumGrid album={album} key={album.id} />)
+              : dateSort
+                  .filter(
+                    (album) =>
+                      album.type == typeValue || album.genre == genreValue
+                  )
+                  .map((album) => <AlbumGrid album={album} key={album.id} />)
+            : typeValue == "" && genreValue == ""
+            ? paginationAlbums()
                 .map((album) => <AlbumGrid album={album} key={album.id} />)
                 .reverse()
-              : typeValue == '' || genreValue == ''
-                ? dateSort
-                  .filter((album) => album.type == typeValue || album.genre == genreValue)
-                  .map((album) => <AlbumGrid album={album} key={album.id} />)
-                  .reverse()
-                : genreValue && typeValue
-                  ? dateSort
-                    .filter((album) => album.type == typeValue && album.genre == genreValue)
-                    .map((album) => <AlbumGrid album={album} key={album.id} />)
-                    .reverse()
-                  : dateSort
-                    .filter((album) => album.type == typeValue || album.genre == genreValue)
-                    .map((album) => <AlbumGrid album={album} key={album.id} />)}
+            : typeValue == "" || genreValue == ""
+            ? dateSort
+                .filter(
+                  (album) =>
+                    album.type == typeValue || album.genre == genreValue
+                )
+                .map((album) => <AlbumGrid album={album} key={album.id} />)
+                .reverse()
+            : genreValue && typeValue
+            ? dateSort
+                .filter(
+                  (album) =>
+                    album.type == typeValue && album.genre == genreValue
+                )
+                .map((album) => <AlbumGrid album={album} key={album.id} />)
+                .reverse()
+            : dateSort
+                .filter(
+                  (album) =>
+                    album.type == typeValue || album.genre == genreValue
+                )
+                .map((album) => <AlbumGrid album={album} key={album.id} />)}
         </section>
         <section className="pagination">
-          {currentPage > 1 && typeValue == '' && genreValue == '' ? (
+          {currentPage > 1 && typeValue == "" && genreValue == "" ? (
             <img
               onClick={prevPage}
               src="/icons/images/arrows/triangular-arrow.png"
               className="prev-page"
+              alt="arrow-prev-page"
             />
           ) : (
-            ''
+            ""
           )}
           {currentPage < albumsTot - albumsPerPage &&
-            typeValue == '' &&
-            genreValue == '' ? (
+          typeValue == "" &&
+          genreValue == "" ? (
             <img
               onClick={nextPage}
               src="/icons/images/arrows/triangular-arrow.png"
               className="next-page"
+              alt='arrow-next-page'
             />
           ) : (
-            ''
+            ""
           )}
         </section>
       </section>
