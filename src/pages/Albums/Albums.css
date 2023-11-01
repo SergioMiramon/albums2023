@@ -1,5 +1,5 @@
 .filter-section {
-  max-width: 60vw;
+  max-width: 65vw;
   height: inherit;
   padding-top: 0;
   display: flex;
@@ -57,7 +57,7 @@ h2 {
 }
 
 .albums > figure {
-  width: 60vw;
+  width: 65vw;
   animation: scaleAlbums 0.5s linear;
   -webkit-animation: scaleAlbums 0.5s linear;
 }
