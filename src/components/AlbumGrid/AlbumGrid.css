@@ -219,7 +219,7 @@ figure img {
 
 @media (max-width: 770px) {
   .info h4 {
-    font-size: 0.8vh;
+    font-size: 0.9vh;
   }
 
   .title h2 {
@@ -239,7 +239,7 @@ figure img {
   }
 }
 
-@media (max-width: 520px) {
+/* @media (max-width: 520px) {
   figure img {
     height: 20vw;
     width: 20vw;
@@ -248,11 +248,11 @@ figure img {
     margin-left: 20.5vw;
   }
   .info h4 {
-    font-size: 0.8vh;
+    font-size: 0.9vh;
   }
 
   .title h2 {
-    font-size: 1.4vh;
+    font-size: 1.5vh;
   }
 
   .title .favs-title::after {
@@ -266,7 +266,7 @@ figure img {
   .details p {
     font-size: 0.8vh;
   }
-}
+} */
 
 @media (max-width: 320px) {
   figure img {
