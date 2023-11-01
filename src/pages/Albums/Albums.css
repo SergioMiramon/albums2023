@@ -47,7 +47,7 @@ h2 {
   color: var(--main-bg-color);
 }
 .albums {
-  padding-top: 2vh;
+  padding-top: 1vh;
   gap: 2vh;
 }
 
