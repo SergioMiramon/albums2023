@@ -2150,6 +2150,21 @@ export const albums = [
     "link": "",
     "favs": "",
     "hr": false
+  },
+  {
+    "title": "Gold",
+    "artist": "Cleo Sol",
+    "id": 152,
+    "releasedate": "09/29/2023",
+    "month": "september",
+    "type": "Album",
+    "songs": 10,
+    "duration": "42min 3s",
+    "genre": "r&b",
+    "image": "/icons/images/covers/gold.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
   }
 ]
 
