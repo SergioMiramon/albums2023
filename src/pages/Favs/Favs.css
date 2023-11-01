@@ -23,7 +23,7 @@
 }
 
 .favs > a {
-  width: 60vw;
+  width: 65vw;
   animation: scaleFavs 0.5s linear;
   -webkit-animation: scaleFavs 0.5s linear;
 }
