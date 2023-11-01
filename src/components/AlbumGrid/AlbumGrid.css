@@ -240,6 +240,13 @@ figure img {
 }
 
 @media (max-width: 520px) {
+  figure img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .info {
+    margin-left: 20.5vw;
+  }
   .info h4 {
     font-size: 0.8vh;
   }
