@@ -118,6 +118,7 @@ figure img {
 
 .title h2 {
   font-size: 3.5vh;
+  line-height: 100%;
   word-wrap: break-word;
   color: var(--primary-bg-color);
   margin-bottom: 0;
@@ -212,6 +213,7 @@ figure img {
 
   .details p {
     font-size: 1.2vh;
+    line-height: 100%;
   }
 }
 
@@ -259,7 +261,7 @@ figure img {
   }
 }
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   .info h4 {
     font-size: 0.7vh;
   }
@@ -279,4 +281,4 @@ figure img {
   .details p {
     font-size: 0.7vh;
   }
-}
+} */
