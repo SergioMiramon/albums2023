@@ -2157,7 +2157,7 @@ export const albums = [
   .sort((a, b) => new Date(a.releasedate)  -  new Date(b.releasedate))
 
   export const albumsTot = dateSort.length;
-  console.log(albumsTot)
+  
   const types = dateSort.map((data) => data.type).sort();
   export const typeFilter = [...new Set(types)];
 
