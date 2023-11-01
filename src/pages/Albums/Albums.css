@@ -1,3 +1,6 @@
+.albums-section > h1{
+  font-size: 1.8vh;
+}
 .filter-section {
   max-width: 65vw;
   height: inherit;
@@ -39,13 +42,6 @@
   transform: rotate(180deg);
 }
 
-h1 {
-  color: var(--main-bg-color);
-  text-transform: capitalize;
-}
-h2 {
-  color: var(--main-bg-color);
-}
 .albums {
   padding-top: 1vh;
   gap: 2vh;

@@ -4,11 +4,15 @@
   padding-top: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: .3vh;
 }
 .favs-header > h1 {
   font-size: 1.8vh;
-  color: var(--white-color);
+}
+
+.favs-count{
+  font-size:1.2vh;
 }
 
 .favs {
