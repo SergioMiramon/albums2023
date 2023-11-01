@@ -73,6 +73,7 @@
 .album-detail .details-detail p {
   font-size: 1.7vh;
   font-style: italic;
+  font-weight: 400;
 }
 
 .fav-songs{
