@@ -375,7 +375,7 @@ export const albums = [
     "image": "/icons/images/covers/dyktttuob.jpg",
     "link": "https://open.spotify.com/intl-es/album/5HOHne1wzItQlIYmLXLYfZ?si=8d87592c70bb44fb",
     "favs": "⭐",
-    "favssongs": ["Paris Texas (ft. SYML)", "Did you know that there´s a tunnel under the Ocean Blvd", "Candy Necklace (ft. Jon Batiste)"],
+    "favssongs": ["Paris Texas (ft. SYML)", "Did you know that there´s a tunnel under Ocean Blvd", "Candy Necklace (ft. Jon Batiste)"],
     "hr": true
   },
   {
