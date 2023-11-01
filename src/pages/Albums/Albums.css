@@ -40,7 +40,7 @@
 }
 
 h1 {
-  color: var(--secondary-bg-color);
+  color: var(--main-bg-color);
   text-transform: capitalize;
 }
 h2 {

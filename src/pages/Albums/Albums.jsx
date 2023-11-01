@@ -39,6 +39,7 @@ export const Albums = () => {
   return (
     <main>
       <section className="albums-section">
+      <h1>Albums of 2023</h1>
         <section className="filter-section">
           <Filter
             onTypeSelected={onTypeSelected}

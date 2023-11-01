@@ -7,10 +7,12 @@ export const Favs = () => {
   return (
     <main>
       <section className="favs-section">
-        <section className="favs-header">
+      <h1>Fav Albums {`(${favsTot})`}</h1>
+          
+        {/* <section className="favs-header">
           <h1>Fav Albums</h1>
           <h1 className="favs-count">{`(${favsTot})`}</h1>
-        </section>
+        </section> */}
         <section className="favs">
           {favAlbums.map((album) => (
             <NavLink to={`/favs/${album.title}`} key={album.id}>
