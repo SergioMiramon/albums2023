@@ -268,8 +268,34 @@ figure img {
   }
 }
 
-/* @media (max-width: 320px) {
+@media (max-width: 320px) {
+  figure img {
+    height: 20vw;
+    width: 20vw;
+  }
+  .info {
+    margin-left: 20.5vw;
+  }
   .info h4 {
+    font-size: 0.8vh;
+  }
+
+  .title h2 {
+    font-size: 1.3vh;
+  }
+
+  .title .favs-title::after {
+    font-size: 0.6vh;
+  }
+
+  .details h3 {
+    font-size: 1.1vh;
+  }
+
+  .details p {
+    font-size: 0.9vh;
+  }
+  /* .info h4 {
     font-size: 0.7vh;
   }
 
@@ -287,5 +313,5 @@ figure img {
 
   .details p {
     font-size: 0.7vh;
-  }
-} */
+  } */
+}
