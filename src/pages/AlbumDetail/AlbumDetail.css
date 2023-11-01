@@ -1,5 +1,5 @@
 .album-detail {
-  height: 100vh;
+  height: calc(100vh - 6vh);
   width: 100vw;
   position: relative;
   display: flex;
@@ -36,6 +36,7 @@
 }
 .album-detail .info-detail h4 {
   font-size: 1.6vh;
+  font-style: italic;
 }
 
 .album-detail .title-detail {
@@ -66,14 +67,18 @@
 
 .album-detail .details-detail h3 {
   font-size: 2vh;
+  font-style: italic;
 }
 
 .album-detail .details-detail p {
-  font-size: 1.8vh;
+  font-size: 1.7vh;
+  font-style: italic;
 }
 
-.album-detail .details-detail p.hr {
+.fav-songs{
   font-size: 1.6vh;
+  word-wrap: break-word;
+  font-weight: 800;
 }
 
 @media (max-width: 1660px) {
@@ -81,7 +86,7 @@
     height: 30vw;
     width: 30vw;
   }
-  .info-detail h4 {
+  .info-detail h4, .fav-songs {
     font-size: 1.4vh;
   }
 
@@ -100,10 +105,6 @@
   .details-detail p {
     font-size: 1.6vh;
   }
-
-  .details-detail p.hr {
-    font-size: 1.4vh;
-  }
 }
 
 @media (max-width: 1200px) {
@@ -111,7 +112,7 @@
     height: 40vw;
     width: 40vw;
   }
-  .info-detail h4 {
+  .info-detail h4, .fav-songs {
     font-size: 1.2vh;
   }
 
@@ -130,14 +131,10 @@
   .details-detail p {
     font-size: 1.4vh;
   }
-
-  .details-detail p.hr {
-    font-size: 1.2vh;
-  }
 }
 
 @media (max-width: 1050px) {
-  .info-detail h4 {
+  .info-detail h4, .fav-songs {
     font-size: 1vh;
   }
 
@@ -156,10 +153,6 @@
   .details-detail p {
     font-size: 1.2vh;
   }
-
-  .details-detail p.hr {
-    font-size: 1vh;
-  }
 }
 
 @media (max-width: 770px) {
@@ -167,7 +160,7 @@
     height: 55vw;
     width: 55vw;
   }
-  .info-detail h4 {
+  .info-detail h4, .fav-songs {
     font-size: 0.8vh;
   }
 
@@ -186,14 +179,10 @@
   .details-detail p {
     font-size: 1vh;
   }
-
-  .details-detail p.hr {
-    font-size: 0.8vh;
-  }
 }
 
 @media (max-width: 520px) {
-  .info-detail h4 {
+  .info-detail h4, .fav-songs {
     font-size: 0.6vh;
   }
 
@@ -212,14 +201,10 @@
   .details-detail p {
     font-size: 0.8vh;
   }
-
-  .details-detail p.hr {
-    font-size: 0.6vh;
-  }
 }
 
 @media (max-width: 300px) {
-  .info-detail h4 {
+  .info-detail h4, .fav-songs {
     font-size: 0.4vh;
   }
 
@@ -236,10 +221,6 @@
   }
 
   .details-detail p {
-    font-size: 0.6vh;
-  }
-
-  .details-detail p.hr {
     font-size: 0.6vh;
   }
 }

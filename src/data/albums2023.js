@@ -117,6 +117,7 @@ export const albums = [
     "image": "/icons/images/covers/fomo.jpg",
     "link": "https://open.spotify.com/intl-es/album/2wj8AHax9qryX210NBwu5Q?si=zKOMm0mtQ3mUPHoYEgtnow",
     "favs": "⭐",
+    "favssongs": ["salir (ft. SOULFIA)", "cosquillas", "la decisión"],
     "hr": true
   },
   {
@@ -252,6 +253,7 @@ export const albums = [
     "image": "/icons/images/covers/diez-vueltas-al-sol.jpg",
     "link": "https://open.spotify.com/intl-es/album/1b4e1McTyILJe3TeHc6IWk?si=qoFIhWc6Tme8VUuYp-YkTA",
     "favs": "⭐",
+    "favssongs": ["Contigo y Sin Ti", "Seda", "I Love You"],
     "hr": true
   },
   {
@@ -281,7 +283,7 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/covers/contra-todo-pronostico.jpg",
     "link": "https://open.spotify.com/intl-es/album/6Vci5Gbazs7TZYDNliRJKO?si=gI9Mos7zQaaTYnQTf_h_UQ",
-    "favs": "⭐",
+    "favs": "",
     "hr": true
   },
   {
@@ -342,6 +344,7 @@ export const albums = [
     "image": "/icons/images/covers/swarm.jpg",
     "link": "https://open.spotify.com/intl-es/album/7AXxq1n3X7JZbbEnGCfLAX?si=4917572c66724df8",
     "favs": "⭐",
+    "favssongs": ["Big World", "Sticky", "Something Like That"],
     "hr": true
   },
   {
@@ -372,6 +375,7 @@ export const albums = [
     "image": "/icons/images/covers/dyktttuob.jpg",
     "link": "https://open.spotify.com/intl-es/album/5HOHne1wzItQlIYmLXLYfZ?si=8d87592c70bb44fb",
     "favs": "⭐",
+    "favssongs": ["Paris Texas (ft. SYML)", "Did you know that there´s a tunnel under the Ocean Blvd", "Candy Necklace (ft. Jon Batiste)"],
     "hr": true
   },
   {
@@ -386,7 +390,7 @@ export const albums = [
     "genre": "rap",
     "image": "/icons/images/covers/scaring-the-hoes.jpg",
     "link": "https://open.spotify.com/intl-es/album/3u20OXh03DjCUzbf8XcGTq?si=2b7e2ffde620401b",
-    "favs": "⭐",
+    "favs": "",
     "hr": true
   },
   {
@@ -432,6 +436,7 @@ export const albums = [
     "image": "/icons/images/covers/eight-ballers.jpg",
     "link": "https://open.spotify.com/intl-es/album/1e6VVVwMYycNbPtn1GsZJy?si=efa1368eb52841fb",
     "favs": "⭐",
+    "favssongs": ["Loyalty (ft. Wase & Juleeo)", "All That I Know", "Rockstar Music"],
     "hr": true
   },
   {
@@ -462,6 +467,7 @@ export const albums = [
     "image": "/icons/images/covers/glorious-game.jpg",
     "link": "https://open.spotify.com/intl-es/album/73IZHjXw93CWjWoDpmQ6Vy?si=89cee6c2c5c840a9",
     "favs": "⭐",
+    "favssongs": ["Glorious Game (ft. KIRBY)", "Protocol", "Grateful (ft. Son Little)"],
     "hr": true
   },
   {
@@ -717,6 +723,7 @@ export const albums = [
     "image": "/icons/images/covers/4-temas.jpg",
     "link": "https://open.spotify.com/intl-es/album/1a2x6o2Hsn00hOF2csmzJX?si=5e6daeed21894e4f",
     "favs": "⭐",
+    "favssongs": ["TE LA DEBÍA", "CASI", "SHHH"],
     "hr": true
   },
   {
@@ -732,6 +739,7 @@ export const albums = [
     "image": "/icons/images/covers/me-muevo-con-dios.jpg",
     "link": "https://open.spotify.com/intl-es/album/7yvmtCjHcBe9DqIVl7AwQT?si=2dab38b78ce54de4",
     "favs": "⭐",
+    "favssongs": ["BABI BOI (ft. Chita)", "Practice (ft. Hoke)", "Cangrinaje"],
     "hr": true
   },
   {
@@ -912,6 +920,7 @@ export const albums = [
     "image": "/icons/images/covers/artilleria.jpg",
     "link": "https://open.spotify.com/intl-es/album/6jVA72WRY7ixs7K4Qx0A28?si=a3793b7e502949a7",
     "favs": "⭐",
+    "favssongs": ["Tiro Al Aire", "Cuerpo A Tierra", "Beso Nuclear"],
     "hr": true
   },
   {
@@ -927,6 +936,7 @@ export const albums = [
     "image": "/icons/images/covers/panico.jpg",
     "link": "https://open.spotify.com/intl-es/album/3DbhVw6p0iVdefGuSjXKdO?si=3020e4c8aa574393",
     "favs": "⭐",
+    "favssongs": ["Blam Blam (ft. Al2 El Aldeano)", "Corrupción En Tu Espejo (ft. Nino Freestyle)", "Pregúntale A Tu Papá Por Mi"],
     "hr": true
   },
   {
@@ -972,6 +982,7 @@ export const albums = [
     "image": "/icons/images/covers/claridad.jpg",
     "link": "https://open.spotify.com/intl-es/album/3WfOIUEYZSSBlJVzF9UCt0?si=337a24eb8d6348b9",
     "favs": "⭐",
+    "favssongs": ["No fue así", "No me ves", "Por si quieres volver"],
     "hr": true
   },
   {
@@ -1017,6 +1028,7 @@ export const albums = [
     "image": "/icons/images/covers/po2054az-vol1.jpg",
     "link": "https://open.spotify.com/intl-es/album/2FQ1wvw5azk1cHo1YDzNXT?si=14e6e91119a543a8",
     "favs": "⭐",
+    "favssongs": ["Blue Jeans Y Un Crop Top", "Me Debes Esto", "Uno De Eses Gatos"],
     "hr": true
   },
   {
@@ -1077,6 +1089,7 @@ export const albums = [
     "image": "/icons/images/covers/baby.jpg",
     "link": "https://open.spotify.com/intl-es/album/766bxryPZBL0hjz0KM6VUD?si=e8f844b750f54bff",
     "favs": "⭐",
+    "favssongs": ["Nice Body (ft. Jorja Smith)", "Who Told You (ft. Drake)", "Militerian (ft. Naira Marley)"],
     "hr": false
   },
   {
@@ -1257,6 +1270,7 @@ export const albums = [
     "image": "/icons/images/covers/el-lamento-de-los-niños-pobres.jpg",
     "link": "https://open.spotify.com/intl-es/album/5oG6eiLWWiF0QQOzXZVqxf?si=b3492a03ec124318",
     "favs": "⭐",
+    "favssongs": ["Carta al Sur", "Outro", "Alcazaba (ft. Faenna)"],
     "hr": true
   },
   {
@@ -1316,7 +1330,8 @@ export const albums = [
     "genre": "experimental",
     "image": "/icons/images/covers/playing-robots-into-heaven.jpg",
     "link": "https://open.spotify.com/intl-es/album/2ZwNcWl8h9blysDE8i4juL?si=18f679e0ea8b4393",
-    "favs": "⭐",
+    "favs": "",
+    "favssongs": ["Loading", "Tel Me", "Big Hammer"],
     "hr": true
   },
   {
@@ -1332,6 +1347,7 @@ export const albums = [
     "image": "/icons/images/covers/papel-de-burbujas.jpg",
     "link": "https://open.spotify.com/intl-es/album/24Xhdsa3kUc1BRa2iA9rO5?si=cb32a48283aa4c05",
     "favs": "⭐",
+    "favssongs": ["Muy Lejos (ft. Ivana & Hard GZ)", "Todo Azul", "Necesito silencio"],
     "hr": true
   },
   {
@@ -1362,6 +1378,7 @@ export const albums = [
     "image": "/icons/images/covers/the-love-album.jpg",
     "link": "https://open.spotify.com/intl-es/album/1Z67w2JtLfO8D2dP0Mwpy1?si=dd1f55f2f0be4769",
     "favs": "⭐",
+    "favssongs": ["What´s Love (ft. NOVA WAY)", "Deliver Me (ft Busta Rhymes, Dawn Richard, Kalenna, Dirty Money)", "Homecoming (ft. Jozzy)"],
     "hr": true
   },
   {
@@ -1377,6 +1394,7 @@ export const albums = [
     "image": "/icons/images/covers/summer-series23.jpg",
     "link": "https://open.spotify.com/intl-es/album/5AAMmtGHyu6zHZGneRia6x?si=40de215311504a8d",
     "favs": "⭐",
+    "favssongs": ["Los Caños de Meca (ft. Juan Arance)", "La Gomera (ft. Rorro)", "Barbate"],
     "hr": true
   },
   {
@@ -1452,6 +1470,7 @@ export const albums = [
     "image": "/icons/images/covers/falling-or-flying.jpg",
     "link": "https://open.spotify.com/intl-es/album/3cCpJc6LhvskN7i9w3WkaA?si=ad7bc69feb25443b",
     "favs": "⭐",
+    "favssongs": ["Broken is the man", "Feelings (ft. J Hus)", "Backwards"],
     "hr": true
   },
   {
@@ -1497,6 +1516,7 @@ export const albums = [
     "image": "/icons/images/covers/cosas-que-brillan.jpg",
     "link": "https://open.spotify.com/intl-es/album/6yib7IjF5TixIRpL5gDgDx?si=40aceff353434336",
     "favs": "⭐",
+    "favssongs": ["Nos Matamos", "El Elegido", "Todo Bien"],
     "hr": false
   },
   {
@@ -1572,6 +1592,7 @@ export const albums = [
     "image": "/icons/images/covers/obsidian.jpg",
     "link": "https://open.spotify.com/intl-es/album/4545KLMxMvi6RBnNRe58t6?si=hluIDmWIT-qLxUnGVsRgfQ",
     "favs": "⭐",
+    "favssongs": ["Definition of Love", "Another Life", "Time and Trust"],
     "hr": false
   },
   {
@@ -1767,6 +1788,7 @@ export const albums = [
     "image": "/icons/images/covers/que-entren-en-mi-cabeza.jpg",
     "link": "https://open.spotify.com/intl-es/album/6GDCV6UWVgWDyiaw8QVQPz?si=EkhKUZoUSmeIV0IzuUvbqw",
     "favs": "⭐",
+    "favssongs": ["8 que 80", "Ninguna posibilidad", "Pellízcame"],
     "hr": false
   },
   {
@@ -2110,6 +2132,21 @@ export const albums = [
     "duration": "22min 8s",
     "genre": "pop",
     "image": "/icons/images/covers/dacy.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Pollen",
+    "artist": "Tennis",
+    "id": 151,
+    "releasedate": "02/10/2023",
+    "month": "february",
+    "type": "Album",
+    "songs": 10,
+    "duration": "35min 26s",
+    "genre": "pop",
+    "image": "/icons/images/covers/pollen.jpg",
     "link": "",
     "favs": "",
     "hr": false

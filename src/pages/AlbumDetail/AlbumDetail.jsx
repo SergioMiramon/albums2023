@@ -29,10 +29,10 @@ export const AlbumDetail = () => {
               </div>
               <div className="details-detail">
                 <h3>{album.artist}</h3>
+                <p className="fav-songs">FAV SONGS: {album.favssongs.join(" - ")}</p>
                 <p>
                   {album.releasedate} · {album.songs} songs · {album.duration}
                 </p>
-                {album.hr ? <p className="hr">*Highly Recommended*</p> : ''}
               </div>
             </div>
           </section>
