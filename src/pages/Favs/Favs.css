@@ -1,3 +1,7 @@
+.favs-section > h1 {
+  font-size: 2.5vh;
+}
+
 .favs-header {
   max-width: 60vw;
   height: inherit;
@@ -7,9 +11,9 @@
   justify-content: center;
   gap: .3vh;
 }
-.favs-header > h1 {
+/* .favs-header > h1 {
   font-size: 1.8vh;
-}
+} */
 
 .favs-count{
   font-size:1.2vh;

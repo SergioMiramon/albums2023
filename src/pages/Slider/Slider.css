@@ -1,7 +1,7 @@
 .slider-section {
   position: fixed;
   width: 100vw;
-  height: calc(100vh - 8vh);
+  height: calc(100vh - 5vh);
   display: flex;
   flex-direction: row;
   animation: sliderScroll 360s linear infinite;
