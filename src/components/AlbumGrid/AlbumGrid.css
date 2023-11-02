@@ -13,7 +13,6 @@
   opacity: 0;
   overflow: hidden;
   transition: opacity 0.5s ease;
-  -webkit-transform: scale(0);
   -webkit-transition: opacity 0.5s ease;
   -moz-transition: opacity 0.5s ease;
   -ms-transition: opacity 0.5s ease;
@@ -122,6 +121,7 @@ figure img {
   content: '⭐';
   font-size: 1.8vh;
   position: absolute;
+  line-height: 100%;
 }
 
 .details {
