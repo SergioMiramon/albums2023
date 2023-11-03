@@ -2165,6 +2165,36 @@ export const albums = [
     "link": "",
     "favs": "",
     "hr": false
+  },
+  {
+    "title": "Blanket",
+    "artist": "Kevin Abstract",
+    "id": 153,
+    "releasedate": "11/03/2023",
+    "month": "november",
+    "type": "Album",
+    "songs": 13,
+    "duration": "37min 43s",
+    "genre": "rock",
+    "image": "/icons/images/covers/blanket.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
+  },
+  {
+    "title": "Zero Tolerance",
+    "artist": "Giggs",
+    "id": 154,
+    "releasedate": "08/18/2023",
+    "month": "august",
+    "type": "Album",
+    "songs": 18,
+    "duration": "1h 3min",
+    "genre": "rap",
+    "image": "/icons/images/covers/zero-tolerance.jpg",
+    "link": "",
+    "favs": "",
+    "hr": false
   }
 ]
 
